@@ -54,7 +54,7 @@ A new item:
 
 The __Worldstone Shard__ allows "corrupting" items to add random sockets.  This is a simple corrupting mechanic that allows you to make use of the various gems, jewels, and runes in the game to enhance your items.
 
-Used in the Horadric Cube w/ any magic, rare, crafted, set, or unique item (weapons, armor, and helms only).  There is a 50% chance the corruption will yield only a single socket, just like Larzuk.
+Used in the Horadric Cube w/ any magic, rare, crafted, set, or unique item -- any equipable item other than jewelry, quivers, or charms.  There is a 50% chance the corruption will yield only a single socket, just as if you had taken it to Larzuk.
 
 ### Classes & Skills
 
