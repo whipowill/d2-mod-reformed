@@ -256,10 +256,10 @@ ItemDisplay[FILTLVL>0 opl]: //
 // - Burning Essence of Terror (bet) red
 // - Festering Essence of Destruction (fed) green
 ItemDisplay[toa]: %LIGHT_GRAY%:: %ORANGE%Absolution %GRAY%Token{%WHITE%Cube to re-roll an item}%DOT-68%
-ItemDisplay[bet]: %LIGHT_GRAY%:: %ORANGE%Evil Essence %GRAY%Burning{%WHITE%Cube to %RED%blood %WHITE%craft an item}%DOT-68%
-ItemDisplay[fed]: %LIGHT_GRAY%:: %ORANGE%Evil Essence %GRAY%Festering{%WHITE%Cube to %GREEN%safety %WHITE%craft an item}%DOT-68%
-ItemDisplay[tes]: %LIGHT_GRAY%:: %ORANGE%Evil Essence %GRAY%Twisted{%WHITE%Cube to %BLUE%hitpower %WHITE%craft an item}%DOT-68%
-ItemDisplay[ceh]: %LIGHT_GRAY%:: %ORANGE%Evil Essence %GRAY%Charged{%WHITE%Cube to %PURPLE%caster %WHITE%craft an item}%DOT-68%
+ItemDisplay[bet]: %LIGHT_GRAY%:: %ORANGE%Burning %GRAY%Essence{%WHITE%Cube to %RED%blood %WHITE%craft an item}%DOT-68%
+ItemDisplay[fed]: %LIGHT_GRAY%:: %ORANGE%Festering %GRAY%Essence{%WHITE%Cube to %GREEN%safety %WHITE%craft an item}%DOT-68%
+ItemDisplay[tes]: %LIGHT_GRAY%:: %ORANGE%Twisted %GRAY%Essence{%WHITE%Cube to %BLUE%hitpower %WHITE%craft an item}%DOT-68%
+ItemDisplay[ceh]: %LIGHT_GRAY%:: %ORANGE%Charged %GRAY%Essence{%WHITE%Cube to %PURPLE%caster %WHITE%craft an item}%DOT-68%
 
 // In original Diablo, crafted items could not be upgraded.  I made it so
 // crafted items can be upgraded using the same recipes as a rare item.
@@ -290,6 +290,6 @@ ItemDisplay[MAG WEAPON]: {%RED%Blood %RED%O%WHITE%Ort%LIGHT_GRAY%O %GRAY%| %PURP
 
 - [Phrozen Keep](https://d2mods.info/forum) - The forum of master D2 modders and their ancient discussions.
 - [MPQ Editor](http://zezula.net/en/mpq/download.html) - App for unpacking MPQ files (handy for reverse engineering what others have done).
-- [Unix2Dos](https://phoenixnap.com/kb/convert-dos-to-unix) - Command line tool for converting file endings (handy for modding TXT files)
+- [Unix2Dos](https://phoenixnap.com/kb/convert-dos-to-unix) - Command line tool for converting file endings (handy for modding TXT files).
 - [XVI32](http://www.chmaas.handshake.de/delphi/freeware/xvi32/xvi32.htm#download) - Freeware hex editor XVI32.
 - [AFJ](https://d2mods.info/forum/viewtopic.php?t=15454) - Table editor for game strings.
