@@ -80,7 +80,7 @@ Also ``data/global/sfx/`` includes some files to mute/swap annoying sounds (Amaz
 Adjustment of drop rates:
 
 - Act bosses always drop quest loot
-- Low quality gems become uncommon once you get to Hell in Normal
+- Low quality gems become uncommon once you get to Act V in Normal
 - Mid and high runes more likely (linear dropoff rather than parabolic)
 - Nodrop rates are unchanged (still incentivized to ``/players 8``)
 
@@ -131,6 +131,10 @@ Crafting changes:
 - Crafting recipes work on all magic items (no longer limited to particular [item codes](https://classic.battle.net/diablo2exp/items/crafteditems.shtml))
 - Crafted weapons and armor can be upgraded as if they were rare
 - Token of Absolution removed from the game
+
+Endgame changes:
+
+- Only one key (any key) required to open red portal (still debating this one)
 
 ### Mercenaries & Auras
 
