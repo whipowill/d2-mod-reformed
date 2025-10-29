@@ -1,0 +1,1702 @@
+[
+    {
+        "id": 3333,
+        "Key": "priceless",
+        "enUS": "Item cannot be traded here."
+    },
+    {
+        "id": 3453,
+        "Key": "Socketable",
+        "enUS": "Socketed (%i)"
+    },
+    {
+        "id": 3454,
+        "Key": "ItemStats1a",
+        "enUS": "Requirements not met"
+    },
+    {
+        "id": 3455,
+        "Key": "ItemStats1b",
+        "enUS": "Unidentified"
+    },
+    {
+        "id": 3456,
+        "Key": "ItemStats1c",
+        "enUS": "Charges:"
+    },
+    {
+        "id": 3457,
+        "Key": "ItemStats1d",
+        "enUS": "Durability: %i of %i"
+    },
+    {
+        "id": 3458,
+        "Key": "ItemStats1e",
+        "enUS": "Required Strength: %d"
+    },
+    {
+        "id": 3459,
+        "Key": "ItemStats1f",
+        "enUS": "Required Dexterity: %d"
+    },
+    {
+        "id": 3460,
+        "Key": "ItemStats1g",
+        "enUS": "Damage:"
+    },
+    {
+        "id": 3461,
+        "Key": "ItemStats1h",
+        "enUS": "Defense: %d"
+    },
+    {
+        "id": 3462,
+        "Key": "ItemStats1i",
+        "enUS": "Quantity: %d of %d"
+    },
+    {
+        "id": 3463,
+        "Key": "ItemStats1j",
+        "enUS": "of"
+    },
+    {
+        "id": 3464,
+        "Key": "ItemStast1k",
+        "enUS": "to"
+    },
+    {
+        "id": 3465,
+        "Key": "ItemStats1l",
+        "enUS": "One-Hand Damage: %d to %d"
+    },
+    {
+        "id": 3466,
+        "Key": "ItemStats1m",
+        "enUS": "Two-Hand Damage: %d to %d"
+    },
+    {
+        "id": 3467,
+        "Key": "ItemStats1n",
+        "enUS": "Throw Damage: %d"
+    },
+    {
+        "id": 3468,
+        "Key": "ItemStats1o",
+        "enUS": "Smite Damage: %d to %d"
+    },
+    {
+        "id": 3469,
+        "Key": "ItemStats1p",
+        "enUS": "Required Level: %d"
+    },
+    {
+        "id": 3470,
+        "Key": "ItemStats1q",
+        "enUS": "Points: %d"
+    },
+    {
+        "id": 3471,
+        "Key": "ItemStatsrejuv1",
+        "enUS": "Heals %d%% Life and Mana"
+    },
+    {
+        "id": 3472,
+        "Key": "ItemStatsrejuv2",
+        "enUS": "Heals 100% Life and Mana"
+    },
+    {
+        "id": 3473,
+        "Key": "ModStr1a",
+        "enUS": "%+d to Strength"
+    },
+    {
+        "id": 3474,
+        "Key": "ModStr1b",
+        "enUS": "%+d to Dexterity"
+    },
+    {
+        "id": 3475,
+        "Key": "ModStr1c",
+        "enUS": "%+d to Vitality"
+    },
+    {
+        "id": 3476,
+        "Key": "ModStr1d",
+        "enUS": "%+d to Energy"
+    },
+    {
+        "id": 3477,
+        "Key": "ModStr1e",
+        "enUS": "%+d to Mana"
+    },
+    {
+        "id": 3478,
+        "Key": "ModStr1f",
+        "enUS": "%+d to Maximum Damage"
+    },
+    {
+        "id": 3479,
+        "Key": "ModStr1g",
+        "enUS": "%+d to Minimum Damage"
+    },
+    {
+        "id": 3480,
+        "Key": "ModStr1h",
+        "enUS": "%+d to Attack Rating"
+    },
+    {
+        "id": 3481,
+        "Key": "ModStr1i",
+        "enUS": "%+d Defense"
+    },
+    {
+        "id": 3482,
+        "Key": "ModStr1j",
+        "enUS": "Fire Resist %+d%%"
+    },
+    {
+        "id": 3483,
+        "Key": "ModStr1k",
+        "enUS": "Cold Resist %+d%%"
+    },
+    {
+        "id": 3484,
+        "Key": "ModStr1l",
+        "enUS": "Lightning Resist %+d%%"
+    },
+    {
+        "id": 3485,
+        "Key": "ModStr1m",
+        "enUS": "Magic Resist %+d%%"
+    },
+    {
+        "id": 3486,
+        "Key": "ModStr1n",
+        "enUS": "Poison Resist %+d%%"
+    },
+    {
+        "id": 3487,
+        "Key": "ModStr1o",
+        "enUS": "%+d to Maximum Fire Damage"
+    },
+    {
+        "id": 3488,
+        "Key": "ModStr1p",
+        "enUS": "%+d to Minimum Fire Damage"
+    },
+    {
+        "id": 3489,
+        "Key": "ModStr1q",
+        "enUS": "%+d to Maximum Lightning Damage"
+    },
+    {
+        "id": 3490,
+        "Key": "ModStr1r",
+        "enUS": "%+d to Minimum Lightning Damage"
+    },
+    {
+        "id": 3491,
+        "Key": "ModStr1s",
+        "enUS": "%+d to Maximum Cold Damage"
+    },
+    {
+        "id": 3492,
+        "Key": "ModStr1t",
+        "enUS": "%+d to Minimum Cold Damage"
+    },
+    {
+        "id": 3493,
+        "Key": "ModStr1u",
+        "enUS": "%+d to Life"
+    },
+    {
+        "id": 3494,
+        "Key": "ModStr1v",
+        "enUS": "Attacker Takes Damage of %d"
+    },
+    {
+        "id": 3497,
+        "Key": "ModStr1y",
+        "enUS": "Knockback"
+    },
+    {
+        "id": 3498,
+        "Key": "ModStr1z",
+        "enUS": "Elixir of Strength"
+    },
+    {
+        "id": 3499,
+        "Key": "ModStr2a",
+        "enUS": "Elixir of Dexterity"
+    },
+    {
+        "id": 3500,
+        "Key": "ModStr2b",
+        "enUS": "Elixir of Energy"
+    },
+    {
+        "id": 3501,
+        "Key": "ModStr2c",
+        "enUS": "Elixir of Vitality"
+    },
+    {
+        "id": 3502,
+        "Key": "ModStr2d",
+        "enUS": "Elixir of Mana"
+    },
+    {
+        "id": 3503,
+        "Key": "ModStr2e",
+        "enUS": "Elixir of Life"
+    },
+    {
+        "id": 3504,
+        "Key": "ModStr2f",
+        "enUS": "Sec. Duration"
+    },
+    {
+        "id": 3505,
+        "Key": "ModStr2g",
+        "enUS": "Increase Maximum Life %d%%"
+    },
+    {
+        "id": 3506,
+        "Key": "ModStr2h",
+        "enUS": "Increase Maximum Mana %d%%"
+    },
+    {
+        "id": 3507,
+        "Key": "ModStr2i",
+        "enUS": "Increase Maximum Durability %d%%"
+    },
+    {
+        "id": 3508,
+        "Key": "ModStr2j",
+        "enUS": "%+d%% Enhanced Maximum Damage"
+    },
+    {
+        "id": 3509,
+        "Key": "ModStr2k",
+        "enUS": "%+d%% Enhanced Minimum Damage"
+    },
+    {
+        "id": 3510,
+        "Key": "ModStr2l",
+        "enUS": "Replenish Life %+d"
+    },
+    {
+        "id": 3511,
+        "Key": "ModStr2m",
+        "enUS": "Replenish Mana"
+    },
+    {
+        "id": 3512,
+        "Key": "ModStr2n",
+        "enUS": "Heal 1\/4 Life"
+    },
+    {
+        "id": 3513,
+        "Key": "ModStr2o",
+        "enUS": "Heal 1\/2 Life"
+    },
+    {
+        "id": 3514,
+        "Key": "ModStr2p",
+        "enUS": "Restore Full Life"
+    },
+    {
+        "id": 3515,
+        "Key": "ModStr2q",
+        "enUS": "Replenish 1\/4 Mana"
+    },
+    {
+        "id": 3516,
+        "Key": "ModStr2r",
+        "enUS": "Replenish 1\/2 Life"
+    },
+    {
+        "id": 3517,
+        "Key": "ModStr2s",
+        "enUS": "Restore Full Mana"
+    },
+    {
+        "id": 3518,
+        "Key": "ModStr2t",
+        "enUS": "Magic Damage Reduced by %d"
+    },
+    {
+        "id": 3519,
+        "Key": "ModStr2u",
+        "enUS": "Damage Reduced by %d"
+    },
+    {
+        "id": 3520,
+        "Key": "Modstr2v",
+        "enUS": "%+d%% Enhanced Defense"
+    },
+    {
+        "id": 3521,
+        "Key": "ModStr2w",
+        "enUS": "Drain Life %d"
+    },
+    {
+        "id": 3522,
+        "Key": "ModStr2x",
+        "enUS": "Drain Mana"
+    },
+    {
+        "id": 3523,
+        "Key": "ModStr2y",
+        "enUS": "%d%% Mana stolen per hit"
+    },
+    {
+        "id": 3524,
+        "Key": "ModStr2z",
+        "enUS": "%d%% Life stolen per hit"
+    },
+    {
+        "id": 3525,
+        "Key": "ModStr3a",
+        "enUS": "%+d to Amazon Skill Levels"
+    },
+    {
+        "id": 3526,
+        "Key": "ModStr3b",
+        "enUS": "%+d to Paladin Skill Levels"
+    },
+    {
+        "id": 3527,
+        "Key": "ModStr3c",
+        "enUS": "%+d to Necromancer Skill Levels"
+    },
+    {
+        "id": 3528,
+        "Key": "ModStr3d",
+        "enUS": "%+d to Sorceress Skill Levels"
+    },
+    {
+        "id": 3529,
+        "Key": "ModStr3e",
+        "enUS": "%+d to Barbarian Skill Levels"
+    },
+    {
+        "id": 3530,
+        "Key": "ModStr3f",
+        "enUS": "%+d to Light Radius"
+    },
+    {
+        "id": 3531,
+        "Key": "ModStr3g",
+        "enUS": "%d%% Increased Chance of Blocking"
+    },
+    {
+        "id": 3532,
+        "Key": "ModStr3h",
+        "enUS": "Requirements %+d%%"
+    },
+    {
+        "id": 3533,
+        "Key": "ModStr3i",
+        "enUS": "%+d to Fire Skills"
+    },
+    {
+        "id": 3534,
+        "Key": "ModStr3j",
+        "enUS": "Attacker Takes Lightning Damage of %d"
+    },
+    {
+        "id": 3535,
+        "Key": "ModStr3k",
+        "enUS": "%+d to All Skills"
+    },
+    {
+        "id": 3536,
+        "Key": "ModStr3l",
+        "enUS": "Freezes target"
+    },
+    {
+        "id": 3537,
+        "Key": "ModStr3m",
+        "enUS": "%+d%% Chance of Open Wounds"
+    },
+    {
+        "id": 3538,
+        "Key": "ModStr3n",
+        "enUS": "Invisibility"
+    },
+    {
+        "id": 3539,
+        "Key": "ModStr3o",
+        "enUS": "Neutral Invisibility"
+    },
+    {
+        "id": 3540,
+        "Key": "ModStr3p",
+        "enUS": "No Mana Healing"
+    },
+    {
+        "id": 3541,
+        "Key": "ModStr3q",
+        "enUS": "No Life Healing"
+    },
+    {
+        "id": 3542,
+        "Key": "ModStr3r",
+        "enUS": "Poison Length Reduced by %d%%"
+    },
+    {
+        "id": 3544,
+        "Key": "ModStr3v",
+        "enUS": "Heal Stamina Plus %d%%"
+    },
+    {
+        "id": 3545,
+        "Key": "ModStr3w",
+        "enUS": "%+d%% Damage Taken Goes To Mana"
+    },
+    {
+        "id": 3546,
+        "Key": "ModStr3x",
+        "enUS": "Heal Life Plus"
+    },
+    {
+        "id": 3547,
+        "Key": "ModStr3y",
+        "enUS": "Ignore Target's Defense"
+    },
+    {
+        "id": 3548,
+        "Key": "ModStr3z",
+        "enUS": "Half Poison Duration"
+    },
+    {
+        "id": 3549,
+        "Key": "ModStr4a",
+        "enUS": "Prevent Monster Heal"
+    },
+    {
+        "id": 3550,
+        "Key": "ModStr4b",
+        "enUS": "Half Freeze Duration"
+    },
+    {
+        "id": 3552,
+        "Key": "ModStr4d",
+        "enUS": "%d to Monster Defense Per Hit"
+    },
+    {
+        "id": 3553,
+        "Key": "ModStr4e",
+        "enUS": "%+d%% Damage to Demons"
+    },
+    {
+        "id": 3554,
+        "Key": "ModStr4f",
+        "enUS": "%+d%% Damage to Undead"
+    },
+    {
+        "id": 3555,
+        "Key": "ModStr4g",
+        "enUS": "Regenerate Mana %d%%"
+    },
+    {
+        "id": 3556,
+        "Key": "ModStr4h",
+        "enUS": "%+d to Maximum Poison Damage"
+    },
+    {
+        "id": 3557,
+        "Key": "ModStr4i",
+        "enUS": "%+d to Minimum Poison Damage"
+    },
+    {
+        "id": 3558,
+        "Key": "ModStr4j",
+        "enUS": "%+d to Attack Rating against Demons"
+    },
+    {
+        "id": 3559,
+        "Key": "ModStr4k",
+        "enUS": "%+d to Attack Rating against Undead"
+    },
+    {
+        "id": 3560,
+        "Key": "ModStr4l",
+        "enUS": "Slightly Increased Attack Speed"
+    },
+    {
+        "id": 3561,
+        "Key": "ModStr4m",
+        "enUS": "%+d%% Increased Attack Speed"
+    },
+    {
+        "id": 3562,
+        "Key": "ModStr4n",
+        "enUS": "Greatly Increased Attack Speed"
+    },
+    {
+        "id": 3563,
+        "Key": "ModStr4o",
+        "enUS": "Fast Hit Recovery"
+    },
+    {
+        "id": 3564,
+        "Key": "ModStr4p",
+        "enUS": "%+d%% Faster Hit Recovery"
+    },
+    {
+        "id": 3565,
+        "Key": "ModStr4q",
+        "enUS": "Fastest Hit Recovery"
+    },
+    {
+        "id": 3566,
+        "Key": "ModStr4r",
+        "enUS": "Fast Run\/Walk"
+    },
+    {
+        "id": 3567,
+        "Key": "ModStr4s",
+        "enUS": "%+d%% Faster Run\/Walk"
+    },
+    {
+        "id": 3568,
+        "Key": "ModStr4t",
+        "enUS": "Fastest Run\/Walk"
+    },
+    {
+        "id": 3569,
+        "Key": "ModStr4u",
+        "enUS": "Fast Cast Rate"
+    },
+    {
+        "id": 3570,
+        "Key": "ModStr4v",
+        "enUS": "%+d%% Faster Cast Rate"
+    },
+    {
+        "id": 3571,
+        "Key": "ModStr4w",
+        "enUS": "Fastest Cast Rate"
+    },
+    {
+        "id": 3572,
+        "Key": "ModStr4x",
+        "enUS": "Fast Block Rate"
+    },
+    {
+        "id": 3573,
+        "Key": "ModStr4y",
+        "enUS": "%+d%% Faster Block Rate"
+    },
+    {
+        "id": 3574,
+        "Key": "ModStr4z",
+        "enUS": "Fastest Block Rate"
+    },
+    {
+        "id": 3575,
+        "Key": "ModStr5a",
+        "enUS": "Throwable"
+    },
+    {
+        "id": 3576,
+        "Key": "ModStr5b",
+        "enUS": "Damage %+d"
+    },
+    {
+        "id": 3577,
+        "Key": "ModStr5c",
+        "enUS": "%+d%% Chance of Crushing Blow"
+    },
+    {
+        "id": 3579,
+        "Key": "ModStr5e",
+        "enUS": "%+d Kick Damage"
+    },
+    {
+        "id": 3580,
+        "Key": "ModStr5f",
+        "enUS": "%+d to Mana after each Kill"
+    },
+    {
+        "id": 3581,
+        "Key": "ModStr5g",
+        "enUS": "Fire Absorb %+d%%"
+    },
+    {
+        "id": 3582,
+        "Key": "ModStr5h",
+        "enUS": "%+d Fire Absorb"
+    },
+    {
+        "id": 3583,
+        "Key": "ModStr5i",
+        "enUS": "Lightning Absorb %+d%%"
+    },
+    {
+        "id": 3584,
+        "Key": "ModStr5j",
+        "enUS": "%+d Lightning Absorb"
+    },
+    {
+        "id": 3585,
+        "Key": "ModStr5k",
+        "enUS": "Magic Absorb %+d%%"
+    },
+    {
+        "id": 3586,
+        "Key": "ModStr5l",
+        "enUS": "%+d Magic Absorb"
+    },
+    {
+        "id": 3587,
+        "Key": "ModStr5m",
+        "enUS": "Cold Absorb %+d%%"
+    },
+    {
+        "id": 3588,
+        "Key": "ModStr5n",
+        "enUS": "%+d Cold Absorb"
+    },
+    {
+        "id": 3589,
+        "Key": "ModStr5o",
+        "enUS": "-%d%% Target Defense"
+    },
+    {
+        "id": 3590,
+        "Key": "ModStr5p",
+        "enUS": "Extra Bloody"
+    },
+    {
+        "id": 3591,
+        "Key": "ModStr5q",
+        "enUS": "%+d%% Deadly Strike"
+    },
+    {
+        "id": 3593,
+        "Key": "ModStr5s",
+        "enUS": "Blessed Aim"
+    },
+    {
+        "id": 3594,
+        "Key": "ModStr5t",
+        "enUS": "Defiance"
+    },
+    {
+        "id": 3595,
+        "Key": "ModStr5u",
+        "enUS": "%+d%% to Maximum Fire Resist"
+    },
+    {
+        "id": 3596,
+        "Key": "ModStr5v",
+        "enUS": "%+d%% to Maximum Cold Resist"
+    },
+    {
+        "id": 3597,
+        "Key": "ModStr5w",
+        "enUS": "%+d%% to Maximum Lightning Resist"
+    },
+    {
+        "id": 3598,
+        "Key": "ModStr5x",
+        "enUS": "%+d%% to Maximum Magic Resist"
+    },
+    {
+        "id": 3599,
+        "Key": "ModStr5y",
+        "enUS": "%+d%% to Maximum Poison Resist"
+    },
+    {
+        "id": 3600,
+        "Key": "ModStr5z",
+        "enUS": "Cannot Be Frozen"
+    },
+    {
+        "id": 3601,
+        "Key": "ModStr6a",
+        "enUS": "%+d Defense vs. Missile"
+    },
+    {
+        "id": 3602,
+        "Key": "ModStr6b",
+        "enUS": "%+d Defense vs. Melee"
+    },
+    {
+        "id": 3603,
+        "Key": "ModStr6c",
+        "enUS": "%+d Life after each Demon Kill"
+    },
+    {
+        "id": 3607,
+        "Key": "ModStr6g",
+        "enUS": "%+d%% Piercing Attack"
+    },
+    {
+        "id": 3608,
+        "Key": "ModStr6h",
+        "enUS": "Fires Magic Arrows"
+    },
+    {
+        "id": 3609,
+        "Key": "ModStr6i",
+        "enUS": "Fires Explosive Arrows or Bolts"
+    },
+    {
+        "id": 3625,
+        "Key": "improved damage",
+        "enUS": "Improved Damage"
+    },
+    {
+        "id": 3626,
+        "Key": "improved to hit",
+        "enUS": "Improved Attack Rating"
+    },
+    {
+        "id": 3627,
+        "Key": "improved armor class",
+        "enUS": "Improved Defense"
+    },
+    {
+        "id": 3628,
+        "Key": "improved durability",
+        "enUS": "Improved Durability"
+    },
+    {
+        "id": 3629,
+        "Key": "Quick Strike",
+        "enUS": "Quick Strike"
+    },
+    {
+        "id": 3630,
+        "Key": "strGemPlace1",
+        "enUS": "Can Be Inserted in Socketed"
+    },
+    {
+        "id": 3631,
+        "Key": "strGemPlace2",
+        "enUS": "Weapons, Shields or Helms"
+    },
+    {
+        "id": 4077,
+        "Key": "WeaponDescMace",
+        "enUS": "Mace Class - %s"
+    },
+    {
+        "id": 4078,
+        "Key": "WeaponDescAxe",
+        "enUS": "Axe Class - %s"
+    },
+    {
+        "id": 4079,
+        "Key": "WeaponDescSword - %s",
+        "enUS": "Sword Class - %s"
+    },
+    {
+        "id": 4080,
+        "Key": "WeaponDescDagger",
+        "enUS": "Dagger Class - %s"
+    },
+    {
+        "id": 4082,
+        "Key": "WeaponDescJavelin",
+        "enUS": "Javelin Class - %s"
+    },
+    {
+        "id": 4083,
+        "Key": "WeaponDescSpear",
+        "enUS": "Spear Class - %s"
+    },
+    {
+        "id": 4084,
+        "Key": "WeaponDescBow",
+        "enUS": "Bow Class - %s"
+    },
+    {
+        "id": 4085,
+        "Key": "WeaponDescStaff",
+        "enUS": "Staff Class - %s"
+    },
+    {
+        "id": 4086,
+        "Key": "WeaponDescPoleArm",
+        "enUS": "Polearm Class - %s"
+    },
+    {
+        "id": 4087,
+        "Key": "WeaponDescCrossBow",
+        "enUS": "Crossbow Class - %s"
+    },
+    {
+        "id": 4088,
+        "Key": "WeaponAttackFastest",
+        "enUS": "Fastest Attack Speed"
+    },
+    {
+        "id": 4089,
+        "Key": "WeaponAttackVeryFast",
+        "enUS": "Very Fast Attack Speed"
+    },
+    {
+        "id": 4090,
+        "Key": "WeaponAttackFast",
+        "enUS": "Fast Attack Speed"
+    },
+    {
+        "id": 4091,
+        "Key": "WeaponAttackNormal",
+        "enUS": "Normal Attack Speed"
+    },
+    {
+        "id": 4092,
+        "Key": "WeaponAttackSlow",
+        "enUS": "Slow Attack Speed"
+    },
+    {
+        "id": 4093,
+        "Key": "WeaponAttackVerySlow",
+        "enUS": "Very Slow Attack Speed"
+    },
+    {
+        "id": 4094,
+        "Key": "WeaponAttackSlowest",
+        "enUS": "Slowest Attack Speed"
+    },
+    {
+        "id": 10001,
+        "Key": "ModStr5d",
+        "enUS": "%+d Maximum Stamina"
+    },
+    {
+        "id": 10020,
+        "Key": "ModStr6e",
+        "enUS": "%d%% Slower Stamina Drain"
+    },
+    {
+        "id": 10023,
+        "Key": "strModEnhancedDamage",
+        "enUS": "%+d%% Enhanced Damage"
+    },
+    {
+        "id": 10024,
+        "Key": "strModAllResistances",
+        "enUS": "All Resistances %+d"
+    },
+    {
+        "id": 10025,
+        "Key": "strModAllSkillLevels",
+        "enUS": "%+d to All Skill Levels"
+    },
+    {
+        "id": 10026,
+        "Key": "strModFireDamage",
+        "enUS": "%+d fire damage"
+    },
+    {
+        "id": 10027,
+        "Key": "strModFireDamageRange",
+        "enUS": "Adds %d-%d fire damage"
+    },
+    {
+        "id": 10028,
+        "Key": "strModColdDamage",
+        "enUS": "%+d cold damage"
+    },
+    {
+        "id": 10029,
+        "Key": "strModColdDamageRange",
+        "enUS": "Adds %d-%d cold damage"
+    },
+    {
+        "id": 10030,
+        "Key": "strModLightningDamage",
+        "enUS": "%+d lightning damage"
+    },
+    {
+        "id": 10031,
+        "Key": "strModLightningDamageRange",
+        "enUS": "Adds %d-%d lightning damage"
+    },
+    {
+        "id": 10032,
+        "Key": "strModMagicDamage",
+        "enUS": "%+d magic damage"
+    },
+    {
+        "id": 10033,
+        "Key": "strModMagicDamageRange",
+        "enUS": "Adds %d-%d magic damage"
+    },
+    {
+        "id": 10034,
+        "Key": "strModPoisonDamage",
+        "enUS": "%+d poison damage over %d seconds"
+    },
+    {
+        "id": 10035,
+        "Key": "strModPoisonDamageRange",
+        "enUS": "Adds %d-%d poison damage over %d seconds"
+    },
+    {
+        "id": 10036,
+        "Key": "strModMinDamage",
+        "enUS": "%+d damage"
+    },
+    {
+        "id": 10037,
+        "Key": "strModMinDamageRange",
+        "enUS": "Adds %d-%d damage"
+    },
+    {
+        "id": 10039,
+        "Key": "ModStre9j",
+        "enUS": "Fire Damage Reduced by"
+    },
+    {
+        "id": 10040,
+        "Key": "ModStre9k",
+        "enUS": "Cold Damage Reduced by"
+    },
+    {
+        "id": 10041,
+        "Key": "ModStre9l",
+        "enUS": "Lightning Damage Reduced by"
+    },
+    {
+        "id": 10042,
+        "Key": "ModStre9m",
+        "enUS": "Poison Damage Reduced by"
+    },
+    {
+        "id": 10043,
+        "Key": "ModStre9n",
+        "enUS": "%+d Absorbs Magic Damage"
+    },
+    {
+        "id": 10044,
+        "Key": "ModStre9o",
+        "enUS": "%+d Absorbs Fire Damage"
+    },
+    {
+        "id": 10045,
+        "Key": "ModStre9p",
+        "enUS": "%+d Absorbs Cold Damage"
+    },
+    {
+        "id": 10046,
+        "Key": "ModStre9q",
+        "enUS": "%+d Absorbs Lightning Damage"
+    },
+    {
+        "id": 10047,
+        "Key": "ModStre9r",
+        "enUS": "%+d Absorbs Poison Damage"
+    },
+    {
+        "id": 10054,
+        "Key": "StrSklTabItem1",
+        "enUS": "%+d to Javelin and Spear Skills"
+    },
+    {
+        "id": 10055,
+        "Key": "StrSklTabItem2",
+        "enUS": "%+d to Passive and Magic Skills"
+    },
+    {
+        "id": 10056,
+        "Key": "StrSklTabItem3",
+        "enUS": "%+d to Bow and Crossbow Skills"
+    },
+    {
+        "id": 10057,
+        "Key": "StrSklTabItem4",
+        "enUS": "%+d to Defensive Auras"
+    },
+    {
+        "id": 10058,
+        "Key": "StrSklTabItem5",
+        "enUS": "%+d to Offensive Auras"
+    },
+    {
+        "id": 10059,
+        "Key": "StrSklTabItem6",
+        "enUS": "%+d to Combat Skills"
+    },
+    {
+        "id": 10061,
+        "Key": "StrSklTabItem7",
+        "enUS": "%+d to Poison and Bone Skills"
+    },
+    {
+        "id": 10062,
+        "Key": "StrSklTabItem8",
+        "enUS": "%+d to Curses"
+    },
+    {
+        "id": 10063,
+        "Key": "StrSklTabItem10",
+        "enUS": "%+d to Warcries"
+    },
+    {
+        "id": 10064,
+        "Key": "StrSklTabItem11",
+        "enUS": "%+d to Combat Skills"
+    },
+    {
+        "id": 10065,
+        "Key": "StrSklTabItem12",
+        "enUS": "%+d to Masteries"
+    },
+    {
+        "id": 10066,
+        "Key": "StrSklTabItem13",
+        "enUS": "%+d to Cold Skills"
+    },
+    {
+        "id": 10067,
+        "Key": "StrSklTabItem14",
+        "enUS": "%+d to Lightning Skills"
+    },
+    {
+        "id": 10068,
+        "Key": "StrSklTabItem15",
+        "enUS": "%+d to Fire Skills"
+    },
+    {
+        "id": 10069,
+        "Key": "StrSklTabItem16",
+        "enUS": "%+d to Summoning Skills"
+    },
+    {
+        "id": 10070,
+        "Key": "StrSklTabItem17",
+        "enUS": "%+d to Shape Shifting Skills"
+    },
+    {
+        "id": 10071,
+        "Key": "StrSklTabItem18",
+        "enUS": "%+d to Elemental Skills"
+    },
+    {
+        "id": 10072,
+        "Key": "StrSklTabItem19",
+        "enUS": "%+d to Traps"
+    },
+    {
+        "id": 10073,
+        "Key": "StrSklTabItem20",
+        "enUS": "%+d to Shadow Disciplines"
+    },
+    {
+        "id": 10074,
+        "Key": "StrSklTabItem21",
+        "enUS": "%+d to Martial Arts"
+    },
+    {
+        "id": 10917,
+        "Key": "AmaOnly",
+        "enUS": "(Amazon Only)"
+    },
+    {
+        "id": 10918,
+        "Key": "SorOnly",
+        "enUS": "(Sorceress Only)"
+    },
+    {
+        "id": 10919,
+        "Key": "NecOnly",
+        "enUS": "(Necromancer Only)"
+    },
+    {
+        "id": 10920,
+        "Key": "PalOnly",
+        "enUS": "(Paladin Only)"
+    },
+    {
+        "id": 10921,
+        "Key": "BarOnly",
+        "enUS": "(Barbarian Only)"
+    },
+    {
+        "id": 10922,
+        "Key": "DruOnly",
+        "enUS": "(Druid Only)"
+    },
+    {
+        "id": 10923,
+        "Key": "AssOnly",
+        "enUS": "(Assassin Only)"
+    },
+    {
+        "id": 10976,
+        "Key": "ModitemAura",
+        "enUS": "Level %d %s Aura When Equipped"
+    },
+    {
+        "id": 10977,
+        "Key": "Moditem2allattrib",
+        "enUS": "%+d to all Attributes"
+    },
+    {
+        "id": 10978,
+        "Key": "Moditem2ExpG",
+        "enUS": "%+d%% to Experience Gained"
+    },
+    {
+        "id": 10979,
+        "Key": "ModitemHPaK",
+        "enUS": "%+d Life after each Kill"
+    },
+    {
+        "id": 10980,
+        "Key": "ModitemRedVendP",
+        "enUS": "Reduces all Vendor Prices %d%%"
+    },
+    {
+        "id": 10981,
+        "Key": "ModitemSMRIP",
+        "enUS": "Slain Monsters Rest in Peace"
+    },
+    {
+        "id": 10982,
+        "Key": "ModitemAttratvsM",
+        "enUS": "%d%% to Attack Rating versus"
+    },
+    {
+        "id": 10983,
+        "Key": "Moditemdamvsm",
+        "enUS": "%d%% to Damage versus"
+    },
+    {
+        "id": 10984,
+        "Key": "Moditemslayat",
+        "enUS": "Slaying:"
+    },
+    {
+        "id": 10985,
+        "Key": "Moditemreanimas",
+        "enUS": "%0%% Reanimate as: %1"
+    },
+    {
+        "id": 10986,
+        "Key": "Moditemenrescoldsk",
+        "enUS": "-%d%% to Enemy Cold Resistance"
+    },
+    {
+        "id": 10987,
+        "Key": "Moditemenresfiresk",
+        "enUS": "-%d%% to Enemy Fire Resistance"
+    },
+    {
+        "id": 10988,
+        "Key": "Moditemenresltngsk",
+        "enUS": "-%d%% to Enemy Lightning Resistance"
+    },
+    {
+        "id": 10989,
+        "Key": "Moditemenrespoissk",
+        "enUS": "-%d%% to Enemy Poison Resistance"
+    },
+    {
+        "id": 10990,
+        "Key": "ModitemdamFiresk",
+        "enUS": "%+d%% to Fire Skill Damage"
+    },
+    {
+        "id": 10991,
+        "Key": "ModitemdamColdsk",
+        "enUS": "%+d%% to Cold Skill Damage"
+    },
+    {
+        "id": 10992,
+        "Key": "ModitemdamLtngsk",
+        "enUS": "%+d%% to Lightning Skill Damage"
+    },
+    {
+        "id": 10993,
+        "Key": "ModitemdamPoissk",
+        "enUS": "%+d%% to Poison Skill Damage"
+    },
+    {
+        "id": 10994,
+        "Key": "Moditemskondeath",
+        "enUS": "%d%% Chance to cast level %d %s when you Die"
+    },
+    {
+        "id": 10995,
+        "Key": "ModitemskonLevel",
+        "enUS": "%d%% Chance to cast level %d %s when you Level-Up"
+    },
+    {
+        "id": 10996,
+        "Key": "ModitemskonKill",
+        "enUS": "%d%% Chance to cast level %d %s when you Kill an Enemy"
+    },
+    {
+        "id": 11003,
+        "Key": "StrSklTabItem9",
+        "enUS": "+%d to Summoning Skills"
+    },
+    {
+        "id": 11018,
+        "Key": "ItemStats1r",
+        "enUS": "Chance to Block: %d%%"
+    },
+    {
+        "id": 11032,
+        "Key": "ModStr1w",
+        "enUS": "%d%% Extra Gold from Monsters"
+    },
+    {
+        "id": 11033,
+        "Key": "ModStr1x",
+        "enUS": "%d%% Better Chance of Getting Magic Items"
+    },
+    {
+        "id": 11034,
+        "Key": "ModStr3u",
+        "enUS": "Hit Causes Monster to Flee %+d%%"
+    },
+    {
+        "id": 11035,
+        "Key": "ModStr4c",
+        "enUS": "%d%% Bonus to Attack Rating"
+    },
+    {
+        "id": 11036,
+        "Key": "ModStr5r",
+        "enUS": "Slows Target by %d%%"
+    },
+    {
+        "id": 11037,
+        "Key": "ModStr6f",
+        "enUS": "Chance to Reanimate Target"
+    },
+    {
+        "id": 11038,
+        "Key": "ModStr6d",
+        "enUS": "Hit Blinds Target"
+    },
+    {
+        "id": 11080,
+        "Key": "ExInsertSocketsX",
+        "enUS": "Can be Inserted into Socketed Items"
+    },
+    {
+        "id": 11091,
+        "Key": "increaseswithplaylevelX",
+        "enUS": "(Based on Character Level)"
+    },
+    {
+        "id": 11158,
+        "Key": "ModStre8b",
+        "enUS": "%+d to Assassin Skill Levels"
+    },
+    {
+        "id": 11163,
+        "Key": "toa",
+        "enUS": "\u00ffcK\u2086 \u00ffcJAbsolution \u00ffcKToken"
+    },
+    {
+        "id": 20438,
+        "Key": "Charmdes",
+        "enUS": "Keep in Inventory to Gain Bonus"
+    },
+    {
+        "id": 20439,
+        "Key": "ice",
+        "enUS": "Malah's Potion"
+    },
+    {
+        "id": 21205,
+        "Key": "ModStre8a",
+        "enUS": "%+d to Druid Skill Levels"
+    },
+    {
+        "id": 21207,
+        "Key": "ModStre8c",
+        "enUS": " Sockets"
+    },
+    {
+        "id": 21208,
+        "Key": "ModStre8d",
+        "enUS": " to Attack Rating vs. Demons"
+    },
+    {
+        "id": 21209,
+        "Key": "ModStre8e",
+        "enUS": " to Attack Rating vs. Undead"
+    },
+    {
+        "id": 21210,
+        "Key": "ModStre8f",
+        "enUS": " to Damage vs. Demons"
+    },
+    {
+        "id": 21211,
+        "Key": "ModStre8g",
+        "enUS": " percent to Attack Rating"
+    },
+    {
+        "id": 21212,
+        "Key": "ModStre8h",
+        "enUS": " to Javelin and Spear Skills"
+    },
+    {
+        "id": 21213,
+        "Key": "ModStre8i",
+        "enUS": " to Passive and Magic Skills"
+    },
+    {
+        "id": 21214,
+        "Key": "ModStre8j",
+        "enUS": " to Bow and Crossbow Skills"
+    },
+    {
+        "id": 21215,
+        "Key": "ModStre8k",
+        "enUS": " to Defensive Aura Skills"
+    },
+    {
+        "id": 21216,
+        "Key": "ModStre8l",
+        "enUS": " to Offensive Aura Skills"
+    },
+    {
+        "id": 21217,
+        "Key": "ModStre8m",
+        "enUS": " to Combat Skills"
+    },
+    {
+        "id": 21218,
+        "Key": "ModStre8n",
+        "enUS": " to Summoning Skills"
+    },
+    {
+        "id": 21219,
+        "Key": "ModStre8o",
+        "enUS": " to Poison and Bone Skills"
+    },
+    {
+        "id": 21220,
+        "Key": "ModStre8p",
+        "enUS": " to Curses"
+    },
+    {
+        "id": 21221,
+        "Key": "ModStre8q",
+        "enUS": " to Warcry Skills"
+    },
+    {
+        "id": 21222,
+        "Key": "ModStre8r",
+        "enUS": " to Combat Skills"
+    },
+    {
+        "id": 21223,
+        "Key": "ModStre8s",
+        "enUS": " to Masteries Skills"
+    },
+    {
+        "id": 21224,
+        "Key": "ModStre8t",
+        "enUS": " to Cold Skills"
+    },
+    {
+        "id": 21225,
+        "Key": "ModStre8u",
+        "enUS": " to Lightning Skills"
+    },
+    {
+        "id": 21226,
+        "Key": "ModStre8v",
+        "enUS": " to Fire Skills"
+    },
+    {
+        "id": 21227,
+        "Key": "ModStre8w",
+        "enUS": " to Summoning Skills"
+    },
+    {
+        "id": 21228,
+        "Key": "ModStre8x",
+        "enUS": " to Shape-Shifting Skills"
+    },
+    {
+        "id": 21229,
+        "Key": "ModStre8y",
+        "enUS": " to Elemental Skills"
+    },
+    {
+        "id": 21230,
+        "Key": "ModStre8z",
+        "enUS": " to Trap Skills"
+    },
+    {
+        "id": 21231,
+        "Key": "ModStre9a",
+        "enUS": " to Shadow Discipline Skills"
+    },
+    {
+        "id": 21232,
+        "Key": "ModStre9b",
+        "enUS": " to Martial Art Skills"
+    },
+    {
+        "id": 21233,
+        "Key": "ModStre9c",
+        "enUS": "(Based on Character Level)"
+    },
+    {
+        "id": 21234,
+        "Key": "ModStre9d",
+        "enUS": "%s (Increases During Nighttime)"
+    },
+    {
+        "id": 21235,
+        "Key": "ModStre9e",
+        "enUS": "%s (Increases During Daytime)"
+    },
+    {
+        "id": 21236,
+        "Key": "ModStre9f",
+        "enUS": "%s (Increases Near Dawn)"
+    },
+    {
+        "id": 21237,
+        "Key": "ModStre9g",
+        "enUS": "%s (Increases Near Dusk)"
+    },
+    {
+        "id": 21238,
+        "Key": "ModStre9h",
+        "enUS": " Charges of"
+    },
+    {
+        "id": 21239,
+        "Key": "ModStre9i",
+        "enUS": "Increased Stack Size"
+    },
+    {
+        "id": 21240,
+        "Key": "ModStre9s",
+        "enUS": "Indestructible"
+    },
+    {
+        "id": 21241,
+        "Key": "ModStre9t",
+        "enUS": "Repairs %d durability per second"
+    },
+    {
+        "id": 21242,
+        "Key": "ModStre9u",
+        "enUS": "Repairs %d durability in %d seconds"
+    },
+    {
+        "id": 21243,
+        "Key": "ModStre9v",
+        "enUS": "Replenishes quantity"
+    },
+    {
+        "id": 21244,
+        "Key": "ModStre9w",
+        "enUS": "Cast a Level %d"
+    },
+    {
+        "id": 21245,
+        "Key": "ModStre9x",
+        "enUS": "When You Swing"
+    },
+    {
+        "id": 21246,
+        "Key": "ModStre9y",
+        "enUS": "When You Get Hit"
+    },
+    {
+        "id": 21247,
+        "Key": "ModStre9z",
+        "enUS": "When You Hit an Enemy"
+    },
+    {
+        "id": 21248,
+        "Key": "ModStre10a",
+        "enUS": "Charges"
+    },
+    {
+        "id": 21249,
+        "Key": "ModStre10b",
+        "enUS": "Level"
+    },
+    {
+        "id": 21250,
+        "Key": "ModStre10c",
+        "enUS": "Per Level"
+    },
+    {
+        "id": 21251,
+        "Key": "ModStre10d",
+        "enUS": "Level %d %s (%d\/%d Charges)"
+    },
+    {
+        "id": 21252,
+        "Key": "ModStre10e",
+        "enUS": "("
+    },
+    {
+        "id": 21253,
+        "Key": "ModStre10f",
+        "enUS": ")"
+    },
+    {
+        "id": 21254,
+        "Key": "ModStre10g",
+        "enUS": "Stealth"
+    },
+    {
+        "id": 21255,
+        "Key": "ModStre10h",
+        "enUS": "Immunity to Poison"
+    },
+    {
+        "id": 21256,
+        "Key": "ModStre10i",
+        "enUS": "Cursed"
+    },
+    {
+        "id": 21257,
+        "Key": "ModStre10j",
+        "enUS": "Per Player in Party"
+    },
+    {
+        "id": 21258,
+        "Key": "WeaponDescH2H",
+        "enUS": "Claw Class - %s"
+    },
+    {
+        "id": 21259,
+        "Key": "WeaponDescOrb",
+        "enUS": "Orb Class - %s"
+    },
+    {
+        "id": 21260,
+        "Key": "ItemexpED",
+        "enUS": " Elemental Damage"
+    },
+    {
+        "id": 21782,
+        "Key": "ModStre10k",
+        "enUS": "Kick Damage: %d to %d"
+    },
+    {
+        "id": 21783,
+        "Key": "ModStre10L",
+        "enUS": "Percent Chance to Cast"
+    },
+    {
+        "id": 21806,
+        "Key": "tr2",
+        "enUS": "\u00ffcK\u2168  \u00ffc7Scroll of Resistance"
+    },
+    {
+        "id": 21874,
+        "Key": "ExInsertSockets",
+        "enUS": "Can be Inserted into Socketed Items"
+    },
+    {
+        "id": 21885,
+        "Key": "ItemExpansiveChancX",
+        "enUS": "%d%% Chance to cast level %d %s on attack"
+    },
+    {
+        "id": 21886,
+        "Key": "ItemExpansiveChanc1",
+        "enUS": "%d%% Chance to cast level %d %s on striking"
+    },
+    {
+        "id": 21887,
+        "Key": "ItemExpansiveChanc2",
+        "enUS": "%d%% Chance to cast level %d %s when struck"
+    },
+    {
+        "id": 21888,
+        "Key": "ItemExpcharmdesc",
+        "enUS": "Keep in inventory to gain bonus"
+    },
+    {
+        "id": 22745,
+        "Key": "strethereal",
+        "enUS": "Ethereal (Cannot be Repaired)"
+    },
+    {
+        "id": 22746,
+        "Key": "stretherealnonrepair",
+        "enUS": "This item cannot be repaired."
+    },
+    {
+        "id": 23001,
+        "Key": "ModStr2uPercent",
+        "enUS": "Damage Reduced by %d%%"
+    },
+    {
+        "id": 23004,
+        "Key": "ItemModifierClassSkill",
+        "enUS": "%+d to %s %s"
+    },
+    {
+        "id": 23005,
+        "Key": "ItemModifierNonClassSkill",
+        "enUS": "%+d to %s"
+    },
+    {
+        "id": 23049,
+        "Key": "strItemModEtherealSocketed",
+        "enUS": "Ethereal (Cannot be Repaired), Socketed (%i)"
+    },
+    {
+        "id": 23050,
+        "Key": "strItemStatThrowDamageRange",
+        "enUS": "Throw Damage: %d to %d"
+    },
+    {
+        "id": 26333,
+        "Key": "UseTokenOfAbsolution",
+        "enUS": "Right Click to reset Stat\/Skill Points"
+    },
+    {
+        "id": 26360,
+        "Key": "MalahsPotionDescription",
+        "enUS": "Keep it to thaw Anya"
+    },
+    {
+        "id": 26705,
+        "Key": "ItemModifierPersonalized",
+        "enUS": "Personalized"
+    },
+    {
+        "id": 27212,
+        "Key": "ModStr6j",
+        "enUS": "%+d%% Chance to not consume Quantity"
+    },
+    {
+        "id": 29999,
+        "Key": "StackableGem",
+        "enUS": "Can be transmuted into a usable gem"
+    },
+    {
+        "id": 29998,
+        "Key": "StackableRune",
+        "enUS": "Can be transmuted into a usable rune"
+    },
+    {
+        "id": 27076,
+        "Key": "splashdamage",
+        "enUS": "Melee attacks deal splash damage"
+    },
+    {
+        "id": 27077,
+        "Key": "corruption",
+        "enUS": "\u00ffcSCorrupted"
+    }
+]

@@ -1,0 +1,167 @@
+[
+    {
+        "id": 3632,
+        "Key": "gemeffect1",
+        "enUS": "Helm: adds to strength\nShield: adds to shield's defense\nWeapon: adds to attack rating\n"
+    },
+    {
+        "id": 3633,
+        "Key": "gemeffect2",
+        "enUS": "Helm: adds to maximum mana\nShield: adds resistance to cold\nWeapon: adds cold damage to attack\n"
+    },
+    {
+        "id": 3634,
+        "Key": "gemeffect3",
+        "enUS": "Helm: adds to dexterity\nShield: adds resistance to poison\nWeapon: adds poison damage to attack\n"
+    },
+    {
+        "id": 3635,
+        "Key": "gemeffect4",
+        "enUS": "Helm: adds to maximum life\nShield: adds resistance to fire\nWeapon: adds fire damage to attack\n"
+    },
+    {
+        "id": 3636,
+        "Key": "gemeffect5",
+        "enUS": "Helm: adds to attack rating\nShield: adds to all resistances\nWeapon: adds to damage vs. undead\n"
+    },
+    {
+        "id": 3637,
+        "Key": "gemeffect6",
+        "enUS": "Helm: adds to chance to find magic items\nShield: adds resistance to lightning\nWeapon: adds lightning damage to attack\n"
+    },
+    {
+        "id": 3638,
+        "Key": "gemeffect7",
+        "enUS": "Helm: adds mana and life regeneration\nShield: adds attacker takes damage\nWeapon: adds mana and life steal to attack\n"
+    },
+    {
+        "id": 4019,
+        "Key": "Use",
+        "enUS": "Use Gem"
+    },
+    {
+        "id": 11073,
+        "Key": "GemXp1",
+        "enUS": "Helms:"
+    },
+    {
+        "id": 11074,
+        "Key": "GemXp2",
+        "enUS": "Shields:"
+    },
+    {
+        "id": 11075,
+        "Key": "GemXp3",
+        "enUS": "Weapons:"
+    },
+    {
+        "id": 11076,
+        "Key": "GemXp4",
+        "enUS": "Armor:"
+    },
+    {
+        "id": 21265,
+        "Key": "GemeffectX11",
+        "enUS": "Adds to Strength"
+    },
+    {
+        "id": 21266,
+        "Key": "GemeffectX12",
+        "enUS": "Adds to Defense"
+    },
+    {
+        "id": 21267,
+        "Key": "GemeffectX13",
+        "enUS": "Adds to Attack Rating"
+    },
+    {
+        "id": 21268,
+        "Key": "GemeffectX21",
+        "enUS": "Adds to Maximum Mana"
+    },
+    {
+        "id": 21269,
+        "Key": "GemeffectX22",
+        "enUS": "Adds Resistance to Cold"
+    },
+    {
+        "id": 21270,
+        "Key": "GemeffectX23",
+        "enUS": "Adds Cold Damage to Attack"
+    },
+    {
+        "id": 21271,
+        "Key": "GemeffectX31",
+        "enUS": "Adds to Dexterity"
+    },
+    {
+        "id": 21272,
+        "Key": "GemeffectX32",
+        "enUS": "Adds Resistance to Poison"
+    },
+    {
+        "id": 21273,
+        "Key": "GemeffectX33",
+        "enUS": "Adds Poison Damage to Attack"
+    },
+    {
+        "id": 21274,
+        "Key": "GemeffectX41",
+        "enUS": "Adds to Maximum Life"
+    },
+    {
+        "id": 21275,
+        "Key": "GemeffectX42",
+        "enUS": "Adds Resistance to Fire"
+    },
+    {
+        "id": 21276,
+        "Key": "GemeffectX43",
+        "enUS": "Adds Fire Damage to Attack"
+    },
+    {
+        "id": 21277,
+        "Key": "GemeffectX51",
+        "enUS": "Adds to Attack Rating"
+    },
+    {
+        "id": 21278,
+        "Key": "GemeffectX52",
+        "enUS": "Adds to All Resistances"
+    },
+    {
+        "id": 21279,
+        "Key": "GemeffectX53",
+        "enUS": "Adds to Damage vs. Undead"
+    },
+    {
+        "id": 21280,
+        "Key": "GemeffectX61",
+        "enUS": "Adds to Chance to Find Magic Items"
+    },
+    {
+        "id": 21281,
+        "Key": "GemeffectX62",
+        "enUS": "Adds Resistance to Lightning"
+    },
+    {
+        "id": 21282,
+        "Key": "GemeffectX63",
+        "enUS": "Adds Lightning Damage to Attack"
+    },
+    {
+        "id": 21283,
+        "Key": "GemeffectX71",
+        "enUS": "Adds Mana and Life Regeneration"
+    },
+    {
+        "id": 21284,
+        "Key": "GemeffectX72",
+        "enUS": "Adds Attacker Takes Damage"
+    },
+    {
+        "id": 21285,
+        "Key": "GemeffectX73",
+        "enUS": "Adds Mana and Life Steal to Attack"
+    }
+]
