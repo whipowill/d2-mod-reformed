@@ -117,7 +117,6 @@ Minor QOL tweaks:
 
 - Cube 2 runes -> 1 higher rank rune
 - Cube 3 gems -> 1 higher rank gem
-- Red portals only require 1 key instead of 3
 - Secret cow level only requires a Tome of Town Portal
 
 Safe unsocket:
@@ -128,6 +127,10 @@ Safe unsocket:
 Crafting changes:
 
 - Evil essences now used for crafting (free craft recipes)
+    - Twisted Essence of Suffering (blue) - hitpower
+    - Charged Essence of Hatred (yellow) - caster
+    - Burning Essence of Terror (red) - blood
+    - Festering Essence of Destruction (green) - safety
 - Crafting recipes work on all magic items (no longer limited to particular [item codes](https://classic.battle.net/diablo2exp/items/crafteditems.shtml))
 - Crafted weapons and armor can be upgraded as if they were rare
 - Token of Absolution removed from the game
