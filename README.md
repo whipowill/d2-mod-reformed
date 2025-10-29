@@ -2,13 +2,15 @@
 
 A Diablo II soft-mod (TXT files) that contains all my preferred changes to the game over the last 25 years.
 
+Intended for use w/ the [Diablo II PlugY QOL](https://github.com/whipowill/d2-plugy-qol) modpack.
+
 ## Introduction
 
-When you've played a game for decades, you can get particular about how you like things to be.  This mod represents all the changes I've made over the years to enhance quality-of-life and boost what I felt were the fun and interesting aspects of the game.  Things like finding good loot, socketing your items, and crafting w/ materials.
+When you've played a game for decades, you can get particular about how you like things to be.  This mod represents all the changes I've made over the years to enhance quality-of-life and boost what I felt were the fun and interesting aspects of the game.  Minor changes all, nothing too much.
 
-My goal is to mirror this mod between both **D2LOD (v1.13d)** and **D2R (v2.4)**.  Sadly, even w/ the mod parity between the games, you can't transfer a character from one to the other.  For whatever reason it just doesn't work.  I assume it has something to do w/ the internal D2R file encoding that assumes vanilla stats on items.
+My goal is to provide these changes for both **D2LOD (v1.13d)** and **D2R (v2.4)**.  Sadly, even w/ mod parity between the games, you can't transfer a character from one to the other.  For whatever reason it just doesn't work.  I assume it has something to do w/ the internal D2R file encoding that assumes vanilla stats on items.
 
-**The D2LOD version of this mod is the best version, and the D2R ports are close but not always up to date.**  Because I pretty much only play D2LOD, that's the version that gets the most love.  You can check the TODO file to see what those not-yet-ported changes might be.  It's a labor of love, and I will get to it when I can.
+The D2LOD version of this mod is the best version, and the D2R port is close but not always up to date.  Because I pretty much only play D2LOD, that's the version that gets the most love.  You can check the TODO file to see what those not-yet-ported changes might be.  It's a labor of love, and I will get to it when I can.
 
 ## Features
 
