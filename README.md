@@ -65,13 +65,17 @@ Used in the Horadric Cube w/ any magic, rare, crafted, set, or unique item -- an
 - Sorceress
 	- Teleport allowed in town
 	- Meteor lands 2/3 faster
-	- All cooldowns reduced to 0.5 seconds
+	- All cooldowns reduced to 0.5 seconds (is this insane?)
 - Druid
 	- Shapeshift lasts longer (1 min per point)
-	- All beasts can be summoned at same time
-	- Minions have increased critical chance (15% from 5%)
+    - Spirit Wolves now do cold instead of physical damage (like D2R)
+	- All beasts can be summoned at same time (like D2R)
+	- All beasts have increased critical chance (15% from 5%)
+    - All beasts apply Open Wounds on attack (makes sense, right?)
 	- Spirits & vines cannot die
 	- Teleport allowed in shapeshift form
+
+Basically, making Summon Druid a viable class that otherwise could not exist.  Physical immunes were an especially nasty problem from Summon Druids, and the cold damage on Spirit Wolves eases that pressure point.  I literally copied and pasted that exact change from D2R -- it is exactly the same.
 
 Also ``data/global/sfx/`` includes some files to mute/swap annoying sounds (Amazon and Sorceress).
 
@@ -257,15 +261,13 @@ ItemDisplay[FILTLVL>0 opl]: //
 // a PlugY world, so I retrofitted them to be free crafting recipes.
 
 // Crafting
-// - Token of Absolution (toa)
 // - Twisted Essence of Suffering (tes) blue
 // - Charged Essence of Hatred (ceh) yellow
 // - Burning Essence of Terror (bet) red
 // - Festering Essence of Destruction (fed) green
-ItemDisplay[toa]: %LIGHT_GRAY%:: %ORANGE%Absolution %GRAY%Token{%WHITE%Cube to re-roll an item}%DOT-68%
 ItemDisplay[bet]: %LIGHT_GRAY%:: %ORANGE%Burning %GRAY%Essence{%WHITE%Cube to %RED%blood %WHITE%craft an item}%DOT-68%
 ItemDisplay[fed]: %LIGHT_GRAY%:: %ORANGE%Festering %GRAY%Essence{%WHITE%Cube to %GREEN%safety %WHITE%craft an item}%DOT-68%
-ItemDisplay[tes]: %LIGHT_GRAY%:: %ORANGE%Twisted %GRAY%Essence{%WHITE%Cube to %BLUE%hitpower %WHITE%craft an item}%DOT-68%
+ItemDisplay[tes]: %LIGHT_GRAY%:: %ORANGE%Twisted %GRAY%Essence{%WHITE%Cube to %BLUE%greed %WHITE%craft an item}%DOT-68%
 ItemDisplay[ceh]: %LIGHT_GRAY%:: %ORANGE%Charged %GRAY%Essence{%WHITE%Cube to %PURPLE%caster %WHITE%craft an item}%DOT-68%
 
 // In original Diablo, crafted items could not be upgraded.  I made it so

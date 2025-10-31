@@ -8,20 +8,24 @@ Cube changes:
 
 - ``Cubemain.txt``
 
-Lvl 85 zones:
-
-- ``Levels.txt``
-
-Mob changes:
-
-- ``Monstats.txt``
-- ``Monstats2.txt``
-
 Need to update new socketable items:
 
 - ``ItemTypes.txt``
 - ``Armor.txt``
 - ``Weapons.txt``
+
+Lvl 85 zones:
+
+- ``Levels.txt``
+
+Mob changes (Viper and Pigmy only?):
+
+- ``Monstats.txt``
+- ``Monstats2.txt``
+
+Amazon bug fixes (even needed in D2R?)
+
+- ``Skills.txt``
 
 ## Ported
 
