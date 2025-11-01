@@ -130,7 +130,7 @@ Stackable items (D2R only, this change is not in D2LOD):
 - Jewels are stackable by converting in cube
 - Runes are stackable by converting in cube
 
-The problem w/ this in D2R is that you can't control-click stackable items into your stash.  You have to pickup the stack in your stash, move it to your inventory, add the new item to the stack, then move it back.  It's pretty painful.
+The problem w/ this in D2R is that you can't control-click stackable items into your stash.  You have to pickup the stack in your stash, move it to your inventory, add the new item to the stack, then move it back.
 
 Minor QOL tweaks:
 
@@ -146,10 +146,11 @@ Safe unsocket:
 Crafting changes:
 
 - Evil essences now used for crafting (free craft recipes)
-    - Twisted Essence of Suffering (blue) - hitpower
+    - Twisted Essence of Suffering (blue) - greed (used to be hitpower)
     - Charged Essence of Hatred (yellow) - caster
     - Burning Essence of Terror (red) - blood
     - Festering Essence of Destruction (green) - safety
+- Hitpower crafting changed to greed (magic find + gold find rolls)
 - Use a perfect gem w/ an evil essence to change it's color
 - Crafting recipes work on all magic items (no longer limited to particular [item codes](https://classic.battle.net/diablo2exp/items/crafteditems.shtml))
 - Crafted weapons and armor can be upgraded as if they were rare
