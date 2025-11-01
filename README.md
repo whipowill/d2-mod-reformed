@@ -150,6 +150,7 @@ Crafting changes:
     - Charged Essence of Hatred (yellow) - caster
     - Burning Essence of Terror (red) - blood
     - Festering Essence of Destruction (green) - safety
+- Use a perfect gem w/ an evil essence to change it's color
 - Crafting recipes work on all magic items (no longer limited to particular [item codes](https://classic.battle.net/diablo2exp/items/crafteditems.shtml))
 - Crafted weapons and armor can be upgraded as if they were rare
 - Token of Absolution removed from the game
