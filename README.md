@@ -23,7 +23,6 @@ I hope you'll find these changes tasteful while still maintaining the spirit of 
 - __More Socketable Items__ - gloves, belts, boots, and throwing weapons are socketable
 - __New Endgame Farming__ - keys drop from all Prime and Lesser Evils
 - __Retrofit Endgame Materials__ - evil essences are now used as free crafting recipes
-- __More Crafting Options__ - all magic items work w/ crafting recipies
 - __Class & Mob Bug Fixes__ - class bugs fixed, monster bugs fixed
 
 ## Changes
@@ -67,15 +66,13 @@ Used in the Horadric Cube w/ any magic, rare, crafted, set, or unique item -- an
 	- Meteor lands 2/3 faster
 	- All cooldowns reduced to 0.5 seconds (is this insane?)
 - Druid
-	- Shapeshift lasts longer (1 min per point)
+	- Shapeshift lasts longer (1 min/point)
     - Spirit Wolves now do cold instead of physical damage (like D2R)
 	- All beasts can be summoned at same time (like D2R)
 	- All beasts have increased critical chance (15% from 5%)
     - All beasts apply Open Wounds on attack (makes sense, right?)
-	- Spirits & vines cannot die
+	- Spirits & vines cannot die (like PD2)
 	- Teleport allowed in shapeshift form
-
-Basically, making Summon Druid a viable class that otherwise could not exist.  Physical immunes were an especially nasty problem from Summon Druids, and the cold damage on Spirit Wolves eases that pressure point.  I literally copied and pasted that exact change from D2R -- it is exactly the same.
 
 Also ``data/global/sfx/`` includes some files to mute/swap annoying sounds (Amazon and Sorceress).
 
@@ -116,6 +113,14 @@ I wanted to incentivize doing full game runs (instead of just farming a single b
 Help w/ limited inventory space:
 
 - Cube size is now 7x4 (credit [Sajon Oso](https://sajonoso.github.io/d2mods/))
+
+Stackable items (D2R only, this change is not in D2LOD):
+
+- Gems are stackable by converting in cube
+- Jewels are stackable by converting in cube
+- Runes are stackable by converting in cube
+
+The problem w/ this in D2R is that you can't control-click stackable items into your stash.  You have to pickup the stack in your stash, move it to your inventory, add the new item to the stack, then move it back.  It's pretty painful.
 
 Minor QOL tweaks:
 
