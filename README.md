@@ -25,6 +25,16 @@ I hope you'll find these changes tasteful while still maintaining the spirit of 
 - __Retrofit Endgame Materials__ - evil essences are now used as free crafting recipes
 - __Class & Mob Bug Fixes__ - class bugs fixed, monster bugs fixed
 
+## Install
+
+**D2LOD**
+
+- Merge the contents of the ``D2LOD`` folder into your Diablo II game directory.
+
+**D2R**
+
+- Merge the contents of the ``D2R`` folder into your Diablo II game directory.
+
 ## Changes
 
 For a precise view of the game changes enacted here, you can check out my [TXT change repo](https://github.com/whipowill/d2-113c-txt-changes) which highlights exactly what I've done.
