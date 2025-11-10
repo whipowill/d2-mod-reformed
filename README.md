@@ -138,6 +138,12 @@ Minor QOL tweaks:
 - Cube 3 gems -> 1 higher rank gem
 - Secret cow level only requires a Tome of Town Portal
 
+This one might be a big deal:
+
+- Cube an ethereal item w/ an Uber Key to pull it from the ethereal realm (and reverse)
+
+You will want to be sure any gems or runes in said item are taken out first, bc this action regenerates the item.
+
 Safe unsocket:
 
 - Cube a stack of keys to release 1 key
@@ -145,16 +151,18 @@ Safe unsocket:
 
 Crafting changes:
 
+- Hitpower crafting changed to greed (magic find + gold find)
 - Evil essences now used for crafting (free craft recipes)
     - Twisted Essence of Suffering (blue) - greed (used to be hitpower)
     - Charged Essence of Hatred (yellow) - caster
     - Burning Essence of Terror (red) - blood
     - Festering Essence of Destruction (green) - safety
-- Hitpower crafting changed to greed (magic find + gold find rolls)
 - Use a perfect gem w/ an evil essence to change it's color
 - Crafting recipes work on all magic items (no longer limited to particular [item codes](https://classic.battle.net/diablo2exp/items/crafteditems.shtml))
 - Crafted weapons and armor can be upgraded as if they were rare
 - Token of Absolution removed from the game
+
+Basically, you can farm Travincal and accumulate a ton of free craft recipes.
 
 Endgame changes:
 
@@ -165,27 +173,20 @@ Endgame changes:
 All mercenaries have auras and some additional skills:
 
 - Act 1
-	- Fire - Blessed Aim / Fire Arrow / Exploding Arrow
-	- Ice - Blessed Aim / Cold Arrow / Ice Arrow
-- Act 2 (no changes)
-	- Normal
-		- Combat - Jab / Prayer
-		- Defense - Jab / Defiance
-		- Offense - Jab / Blessed Aim
-	- Nightmare
-		- Combat - Jab / Thorns
-		- Defense - Jab / Holy Freeze
-		- Offense - Jab / Might
-	- Hell
-		- Combat - Jab / Prayer
-		- Defense - Jab / Defiance
-		- Offense - Jab / Blessed Aim
+	- Fire - **Blessed Aim** / Fire Arrow / Exploding Arrow / Evade / Dodge
+	- Ice - **Meditation** / Cold Arrow / Ice Arrow / Evade / Dodge
+- Act 2
+	- Combat - **Blessed Aim** / Jab
+	- Defense - **Prayer** / Jab
+	- Offense - **Might** / Jab
 - Act 3
-	- Fire - Meditation / Inferno / Fireball
-	- Lightning - Meditation / Charged Bolt / Chain Lightning
-	- Cold - Meditation / Ice Blast / Glacial Spike
+	- Fire - **Cleansing** / Fireball / Meteor / Fire Mastery
+	- Lightning - **Meditation** / Charged Bolt / Chain Lightning / Lightning Mastery
+	- Cold - **Prayer** / Glacial Spike / Blizzard / Cold Mastery
 - Act 5
-	- All - Might / Bash / Stun
+	- All - **Might** / Battle Orders / Battle Cry / Bash / Stun
+
+Also, all mercenaries are the same no matter what difficulty you hire them.
 
 ### Areas & Rewards
 

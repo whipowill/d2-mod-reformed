@@ -148,7 +148,9 @@ r08 + jew + magic ring -> tempered ring				100					3	ring,mag	jew	r08					usetyp
 r08 + jew + magic amulet -> tempered amulet				100					3	amu,mag	jew	r08					usetype,tmp				levelreq			5	5																																																																															0
 r01 + gcv + tempered weapon -> +30-50 ar				100					3	weap,tmp	r01	gcv					useitem				levelreq			2	2	att			30	50																																																																										0
 3 chipped gems + 1 magic weapon -> socketed, magic weapon	1			0					4	weap,mag	gem0,qty=3						usetype,mag	25		50	sock			1	2																																																																															0
-Pandemonium key	1			100	28				3	pk1	pk2	pk3					Pandemonium Portal																																																																																							0
+Pandemonium key	1			100	28				1	pk1							Pandemonium Portal																																																																																							0
+Pandemonium key	1			100	28				1	pk2							Pandemonium Portal																																																																																							0
+Pandemonium key	1			100	28				1	pk3							Pandemonium Portal																																																																																							0
 Pandemonium Finale key	1			100	28				3	dhn	bey	mbr					Pandemonium Finale Portal																																																																																							0
 Token of Absolution	1			100					4	tes	ceh	bet	fed				toa																																																																																							0
 keys release from stack of x24	1			0	18	70	24		1	key							key,qty=23																													key,qty=1																																																										0
@@ -174,16 +176,16 @@ keys release from stack of x5	1			0	18	70	5		1	key							key,qty=4														
 keys release from stack of x4	1			0	18	70	4		1	key							key,qty=3																													key,qty=1																																																										0
 keys release from stack of x3	1			0	18	70	3		1	key							key,qty=2																													key,qty=1																																																										0
 keys release from stack of x2	1			0	18	70	2		1	key							key,qty=1																													key,qty=1																																																										0
-Error Protect on Throwing Weaps	0			100					2	thro,nos	gps																																																																																													0
-world shard + glove → socketed glove	1			100	18	360	0		2	glov,nos	gps						useitem				corruption			100		sock			2	3	sock	50		1	1																																																																					0
-world shard + belt → socketed belt	1			100	18	360	0		2	belt,nos	gps						useitem				corruption			100		sock			2	3	sock	50		1	1																																																																					0
-world shard + boots → socketed boots	1			100	18	360	0		2	boot,nos	gps						useitem				corruption			100		sock			2	3	sock	50		1	1																																																																					0
-world shard + throw → socketed throw	1			100	18	360	0		2	thro,nos	gps						useitem				corruption			100		sock			2	3	sock	50		1	1																																																																					0
-world shard + combo → socketed combo	1			100	18	360	0		2	comb,nos	gps						useitem				corruption			100		sock			2	3	sock	50		1	1																																																																					0
-world shard + torso → socketed torso	1			100	18	360	0		2	tors,nos	gps						useitem				corruption			100		sock			2	4	sock	50		1	1																																																																					0
-world shard + weapon → socketed weapon	1			100	18	360	0		2	weap,nos	gps						useitem				corruption			100		sock			2	6	sock	50		1	1																																																																					0
-world shard + helm → socketed helm	1			100	18	360	0		2	helm,nos	gps						useitem				corruption			100		sock			2	3	sock	50		1	1																																																																					0
-world shard + shield → socketed shield	1			100	18	360	0		2	shld,nos	gps						useitem				corruption			100		sock			2	4	sock	50		1	1																																																																					0
+Error Protect on Throwing Weaps	0			100					2	thro,nos	wsh																																																																																													0
+world shard + glove → socketed glove	1			100	18	362	0		2	glov,nos	wsh						useitem				corruption			100		sock			2	3	sock	50		1	1																																																																					0
+world shard + belt → socketed belt	1			100	18	362	0		2	belt,nos	wsh						useitem				corruption			100		sock			2	3	sock	50		1	1																																																																					0
+world shard + boots → socketed boots	1			100	18	362	0		2	boot,nos	wsh						useitem				corruption			100		sock			2	3	sock	50		1	1																																																																					0
+world shard + throw → socketed throw	1			100	18	362	0		2	thro,nos	wsh						useitem				corruption			100		sock			2	3	sock	50		1	1																																																																					0
+world shard + combo → socketed combo	1			100	18	362	0		2	comb,nos	wsh						useitem				corruption			100		sock			2	3	sock	50		1	1																																																																					0
+world shard + torso → socketed torso	1			100	18	362	0		2	tors,nos	wsh						useitem				corruption			100		sock			2	4	sock	50		1	1																																																																					0
+world shard + weapon → socketed weapon	1			100	18	362	0		2	weap,nos	wsh						useitem				corruption			100		sock			2	6	sock	50		1	1																																																																					0
+world shard + helm → socketed helm	1			100	18	362	0		2	helm,nos	wsh						useitem				corruption			100		sock			2	3	sock	50		1	1																																																																					0
+world shard + shield → socketed shield	1			100	18	362	0		2	shld,nos	wsh						useitem				corruption			100		sock			2	4	sock	50		1	1																																																																					0
 hitpower helm	1			100					2	helm,mag	tes						usetype,crf		50	50	mag%			10	20	gold%			20	40																																																																										0
 hitpower boots	1			100					2	boot,mag	tes						usetype,crf		50	50	mag%			10	20	gold%			20	40																																																																										0
 hitpower gloves	1			100					2	glov,mag	tes						usetype,crf		50	50	mag%			10	20	gold%			20	40																																																																										0
@@ -237,12 +239,94 @@ any non-yellow essence + perfect topaz = yellow essence	1			0					2	tes	gpy					
 any non-yellow essence + perfect topaz = yellow essence	1			0					2	fed	gpy						ceh																																																																																							0
 any non-yellow essence + perfect topaz = yellow essence	1			0					2	bet	gpy						ceh																																																																																							0
 Key → token of absolution TESTING	1			0	18	70	1		1	key							toa																																																																																							0
-TOA → W Shard TESTING	1			0					1	toa							gps																																																																																							0
-TOA + any item → regenerate unique item TESTING	1			0					2	any,nor,noe	toa						useitem,reg,noe																																																																																							0
-TOA + any item → regenerate unique item TESTING	1			0					2	any,nor,noe	toa						useitem,reg,eth																																																																																							0
-TOA + any item → regenerate set item TESTING	1			0					2	any,nor,noe	toa						useitem,reg,noe																																																																																							0
-TOA + any item → regenerate set item TESTING	1			0					2	any,nor,noe	toa						useitem,reg,eth																																																																																							0
+TOA → W Shard TESTING	1			0					1	toa							wsh																																																																																							0
+TOA + any item → regenerate item TESTING	1			0					2	weap	toa						useitem,reg																																																																																							0
+TOA + any item → regenerate item TESTING	1			0					2	armo	toa						useitem,reg																																																																																							0
 SafeUnsocket w/ key TESTING	1			0					2	any,sock	key,qty=1						useitem,rem																																																																																							0
+Uber Key + Etheral Item = Non Ethereal Item	1			0					2	armo,eth,nos	pk1						useitem,reg,noe																																																																																							0
+Uber Key + Etheral Item = Non Ethereal Item	1			0					2	armo,eth,nos	pk2						useitem,reg,noe																																																																																							0
+Uber Key + Etheral Item = Non Ethereal Item	1			0					2	armo,eth,nos	pk3						useitem,reg,noe																																																																																							0
+Uber Key + Non-etheral Item = Ethereal Item	1			0					2	armo,noe,nos	pk1						useitem,reg,eth																																																																																							0
+Uber Key + Non-etheral Item = Ethereal Item	1			0					2	armo,noe,nos	pk2						useitem,reg,eth																																																																																							0
+Uber Key + Non-etheral Item = Ethereal Item	1			0					2	armo,noe,nos	pk3						useitem,reg,eth																																																																																							0
+Uber Key + Etheral Item = Non Ethereal Item	1			0					2	weap,eth,nos	pk1						useitem,reg,noe																																																																																							0
+Uber Key + Etheral Item = Non Ethereal Item	1			0					2	weap,eth,nos	pk2						useitem,reg,noe																																																																																							0
+Uber Key + Etheral Item = Non Ethereal Item	1			0					2	weap,eth,nos	pk3						useitem,reg,noe																																																																																							0
+Uber Key + Non-etheral Item = Ethereal Item	1			0					2	weap,noe,nos	pk1						useitem,reg,eth																																																																																							0
+Uber Key + Non-etheral Item = Ethereal Item	1			0					2	weap,noe,nos	pk2						useitem,reg,eth																																																																																							0
+Uber Key + Non-etheral Item = Ethereal Item	1			0					2	weap,noe,nos	pk3						useitem,reg,eth																																																																																							0
+Uber Key + Etheral Item = Non Ethereal Item	1			0	18	194	1		2	armo,eth,sock=1	pk1						useitem,reg,noe																																																																																							0
+Uber Key + Etheral Item = Non Ethereal Item	1			0	18	194	1		2	armo,eth,sock=1	pk2						useitem,reg,noe																																																																																							0
+Uber Key + Etheral Item = Non Ethereal Item	1			0	18	194	1		2	armo,eth,sock=1	pk3						useitem,reg,noe																																																																																							0
+Uber Key + Non-etheral Item = Ethereal Item	1			0	18	194	1		2	armo,noe,sock=1	pk1						useitem,reg,eth																																																																																							0
+Uber Key + Non-etheral Item = Ethereal Item	1			0	18	194	1		2	armo,noe,sock=1	pk2						useitem,reg,eth																																																																																							0
+Uber Key + Non-etheral Item = Ethereal Item	1			0	18	194	1		2	armo,noe,sock=1	pk3						useitem,reg,eth																																																																																							0
+Uber Key + Etheral Item = Non Ethereal Item	1			0	18	194	1		2	weap,eth,sock=1	pk1						useitem,reg,noe																																																																																							0
+Uber Key + Etheral Item = Non Ethereal Item	1			0	18	194	1		2	weap,eth,sock=1	pk2						useitem,reg,noe																																																																																							0
+Uber Key + Etheral Item = Non Ethereal Item	1			0	18	194	1		2	weap,eth,sock=1	pk3						useitem,reg,noe																																																																																							0
+Uber Key + Non-etheral Item = Ethereal Item	1			0	18	194	1		2	weap,noe,sock=1	pk1						useitem,reg,eth																																																																																							0
+Uber Key + Non-etheral Item = Ethereal Item	1			0	18	194	1		2	weap,noe,sock=1	pk2						useitem,reg,eth																																																																																							0
+Uber Key + Non-etheral Item = Ethereal Item	1			0	18	194	1		2	weap,noe,sock=1	pk3						useitem,reg,eth																																																																																							0
+Uber Key + Etheral Item = Non Ethereal Item	1			0	18	194	2		2	armo,eth,sock=2	pk1						useitem,reg,noe				sock			2	2																																																																															0
+Uber Key + Etheral Item = Non Ethereal Item	1			0	18	194	2		2	armo,eth,sock=2	pk2						useitem,reg,noe				sock			2	2																																																																															0
+Uber Key + Etheral Item = Non Ethereal Item	1			0	18	194	2		2	armo,eth,sock=2	pk3						useitem,reg,noe				sock			2	2																																																																															0
+Uber Key + Non-etheral Item = Ethereal Item	1			0	18	194	2		2	armo,noe,sock=2	pk1						useitem,reg,eth				sock			2	2																																																																															0
+Uber Key + Non-etheral Item = Ethereal Item	1			0	18	194	2		2	armo,noe,sock=2	pk2						useitem,reg,eth				sock			2	2																																																																															0
+Uber Key + Non-etheral Item = Ethereal Item	1			0	18	194	2		2	armo,noe,sock=2	pk3						useitem,reg,eth				sock			2	2																																																																															0
+Uber Key + Etheral Item = Non Ethereal Item	1			0	18	194	2		2	weap,eth,sock=2	pk1						useitem,reg,noe				sock			2	2																																																																															0
+Uber Key + Etheral Item = Non Ethereal Item	1			0	18	194	2		2	weap,eth,sock=2	pk2						useitem,reg,noe				sock			2	2																																																																															0
+Uber Key + Etheral Item = Non Ethereal Item	1			0	18	194	2		2	weap,eth,sock=2	pk3						useitem,reg,noe				sock			2	2																																																																															0
+Uber Key + Non-etheral Item = Ethereal Item	1			0	18	194	2		2	weap,noe,sock=2	pk1						useitem,reg,eth				sock			2	2																																																																															0
+Uber Key + Non-etheral Item = Ethereal Item	1			0	18	194	2		2	weap,noe,sock=2	pk2						useitem,reg,eth				sock			2	2																																																																															0
+Uber Key + Non-etheral Item = Ethereal Item	1			0	18	194	2		2	weap,noe,sock=2	pk3						useitem,reg,eth				sock			2	2																																																																															0
+Uber Key + Etheral Item = Non Ethereal Item	1			0	18	194	3		2	armo,eth,sock=3	pk1						useitem,reg,noe				sock			3	3																																																																															0
+Uber Key + Etheral Item = Non Ethereal Item	1			0	18	194	3		2	armo,eth,sock=3	pk2						useitem,reg,noe				sock			3	3																																																																															0
+Uber Key + Etheral Item = Non Ethereal Item	1			0	18	194	3		2	armo,eth,sock=3	pk3						useitem,reg,noe				sock			3	3																																																																															0
+Uber Key + Non-etheral Item = Ethereal Item	1			0	18	194	3		2	armo,noe,sock=3	pk1						useitem,reg,eth				sock			3	3																																																																															0
+Uber Key + Non-etheral Item = Ethereal Item	1			0	18	194	3		2	armo,noe,sock=3	pk2						useitem,reg,eth				sock			3	3																																																																															0
+Uber Key + Non-etheral Item = Ethereal Item	1			0	18	194	3		2	armo,noe,sock=3	pk3						useitem,reg,eth				sock			3	3																																																																															0
+Uber Key + Etheral Item = Non Ethereal Item	1			0	18	194	3		2	weap,eth,sock=3	pk1						useitem,reg,noe				sock			3	3																																																																															0
+Uber Key + Etheral Item = Non Ethereal Item	1			0	18	194	3		2	weap,eth,sock=3	pk2						useitem,reg,noe				sock			3	3																																																																															0
+Uber Key + Etheral Item = Non Ethereal Item	1			0	18	194	3		2	weap,eth,sock=3	pk3						useitem,reg,noe				sock			3	3																																																																															0
+Uber Key + Non-etheral Item = Ethereal Item	1			0	18	194	3		2	weap,noe,sock=3	pk1						useitem,reg,eth				sock			3	3																																																																															0
+Uber Key + Non-etheral Item = Ethereal Item	1			0	18	194	3		2	weap,noe,sock=3	pk2						useitem,reg,eth				sock			3	3																																																																															0
+Uber Key + Non-etheral Item = Ethereal Item	1			0	18	194	3		2	weap,noe,sock=3	pk3						useitem,reg,eth				sock			3	3																																																																															0
+Uber Key + Etheral Item = Non Ethereal Item	1			0	18	194	4		2	armo,eth,sock=4	pk1						useitem,reg,noe				sock			4	4																																																																															0
+Uber Key + Etheral Item = Non Ethereal Item	1			0	18	194	4		2	armo,eth,sock=4	pk2						useitem,reg,noe				sock			4	4																																																																															0
+Uber Key + Etheral Item = Non Ethereal Item	1			0	18	194	4		2	armo,eth,sock=4	pk3						useitem,reg,noe				sock			4	4																																																																															0
+Uber Key + Non-etheral Item = Ethereal Item	1			0	18	194	4		2	armo,noe,sock=4	pk1						useitem,reg,eth				sock			4	4																																																																															0
+Uber Key + Non-etheral Item = Ethereal Item	1			0	18	194	4		2	armo,noe,sock=4	pk2						useitem,reg,eth				sock			4	4																																																																															0
+Uber Key + Non-etheral Item = Ethereal Item	1			0	18	194	4		2	armo,noe,sock=4	pk3						useitem,reg,eth				sock			4	4																																																																															0
+Uber Key + Etheral Item = Non Ethereal Item	1			0	18	194	4		2	weap,eth,sock=4	pk1						useitem,reg,noe				sock			4	4																																																																															0
+Uber Key + Etheral Item = Non Ethereal Item	1			0	18	194	4		2	weap,eth,sock=4	pk2						useitem,reg,noe				sock			4	4																																																																															0
+Uber Key + Etheral Item = Non Ethereal Item	1			0	18	194	4		2	weap,eth,sock=4	pk3						useitem,reg,noe				sock			4	4																																																																															0
+Uber Key + Non-etheral Item = Ethereal Item	1			0	18	194	4		2	weap,noe,sock=4	pk1						useitem,reg,eth				sock			4	4																																																																															0
+Uber Key + Non-etheral Item = Ethereal Item	1			0	18	194	4		2	weap,noe,sock=4	pk2						useitem,reg,eth				sock			4	4																																																																															0
+Uber Key + Non-etheral Item = Ethereal Item	1			0	18	194	4		2	weap,noe,sock=4	pk3						useitem,reg,eth				sock			4	4																																																																															0
+Uber Key + Etheral Item = Non Ethereal Item	1			0	18	194	5		2	armo,eth,sock=5	pk1						useitem,reg,noe				sock			5	5																																																																															0
+Uber Key + Etheral Item = Non Ethereal Item	1			0	18	194	5		2	armo,eth,sock=5	pk2						useitem,reg,noe				sock			5	5																																																																															0
+Uber Key + Etheral Item = Non Ethereal Item	1			0	18	194	5		2	armo,eth,sock=5	pk3						useitem,reg,noe				sock			5	5																																																																															0
+Uber Key + Non-etheral Item = Ethereal Item	1			0	18	194	5		2	armo,noe,sock=5	pk1						useitem,reg,eth				sock			5	5																																																																															0
+Uber Key + Non-etheral Item = Ethereal Item	1			0	18	194	5		2	armo,noe,sock=5	pk2						useitem,reg,eth				sock			5	5																																																																															0
+Uber Key + Non-etheral Item = Ethereal Item	1			0	18	194	5		2	armo,noe,sock=5	pk3						useitem,reg,eth				sock			5	5																																																																															0
+Uber Key + Etheral Item = Non Ethereal Item	1			0	18	194	5		2	weap,eth,sock=5	pk1						useitem,reg,noe				sock			5	5																																																																															0
+Uber Key + Etheral Item = Non Ethereal Item	1			0	18	194	5		2	weap,eth,sock=5	pk2						useitem,reg,noe				sock			5	5																																																																															0
+Uber Key + Etheral Item = Non Ethereal Item	1			0	18	194	5		2	weap,eth,sock=5	pk3						useitem,reg,noe				sock			5	5																																																																															0
+Uber Key + Non-etheral Item = Ethereal Item	1			0	18	194	5		2	weap,noe,sock=5	pk1						useitem,reg,eth				sock			5	5																																																																															0
+Uber Key + Non-etheral Item = Ethereal Item	1			0	18	194	5		2	weap,noe,sock=5	pk2						useitem,reg,eth				sock			5	5																																																																															0
+Uber Key + Non-etheral Item = Ethereal Item	1			0	18	194	5		2	weap,noe,sock=5	pk3						useitem,reg,eth				sock			5	5																																																																															0
+Uber Key + Etheral Item = Non Ethereal Item	1			0	18	194	6		2	armo,eth,sock=6	pk1						useitem,reg,noe				sock			6	6																																																																															0
+Uber Key + Etheral Item = Non Ethereal Item	1			0	18	194	6		2	armo,eth,sock=6	pk2						useitem,reg,noe				sock			6	6																																																																															0
+Uber Key + Etheral Item = Non Ethereal Item	1			0	18	194	6		2	armo,eth,sock=6	pk3						useitem,reg,noe				sock			6	6																																																																															0
+Uber Key + Non-etheral Item = Ethereal Item	1			0	18	194	6		2	armo,noe,sock=6	pk1						useitem,reg,eth				sock			6	6																																																																															0
+Uber Key + Non-etheral Item = Ethereal Item	1			0	18	194	6		2	armo,noe,sock=6	pk2						useitem,reg,eth				sock			6	6																																																																															0
+Uber Key + Non-etheral Item = Ethereal Item	1			0	18	194	6		2	armo,noe,sock=6	pk3						useitem,reg,eth				sock			6	6																																																																															0
+Uber Key + Etheral Item = Non Ethereal Item	1			0	18	194	6		2	weap,eth,sock=6	pk1						useitem,reg,noe				sock			6	6																																																																															0
+Uber Key + Etheral Item = Non Ethereal Item	1			0	18	194	6		2	weap,eth,sock=6	pk2						useitem,reg,noe				sock			6	6																																																																															0
+Uber Key + Etheral Item = Non Ethereal Item	1			0	18	194	6		2	weap,eth,sock=6	pk3						useitem,reg,noe				sock			6	6																																																																															0
+Uber Key + Non-etheral Item = Ethereal Item	1			0	18	194	6		2	weap,noe,sock=6	pk1						useitem,reg,eth				sock			6	6																																																																															0
+Uber Key + Non-etheral Item = Ethereal Item	1			0	18	194	6		2	weap,noe,sock=6	pk2						useitem,reg,eth				sock			6	6																																																																															0
+Uber Key + Non-etheral Item = Ethereal Item	1			0	18	194	6		2	weap,noe,sock=6	pk3						useitem,reg,eth				sock			6	6																																																																															0
 gems gcv -> stackable zcv	1			0					1	gcv							zcv																																																																																							0
 gems stackable zcv -> gcv	1			0	18	70	1		1	zcv							gcv																																																																																							0
 gems release gcv from stack of x36 zcv	1			0	18	70	36		1	zcv							zcv,qty=35																													gcv																																																										0

@@ -1,0 +1,3 @@
+- Copy file from D2LOD
+- Add lines from stackable file
+- Find/replace "gps" with "wsh"
