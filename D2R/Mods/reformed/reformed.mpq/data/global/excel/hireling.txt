@@ -119,18 +119,3 @@ Barbarian	2hs-Hell	100	27	561	5	2	58	515	MercX101	MercX167	18000	130	828	27	480	
 Barbarian	2hs-Normal	100	27	561	5	2	80	515	MercX101	MercX167	18000	130	1422	45	1250	50	200	15	129	10	1520	45	49	53	5	56	7	56	7	56	7	56	7		50	Might	1	10	0	18	0	2hs-Normal	Battle Orders	5	5	0	21	0	Battle Cry	5	5	0	21	0	Concentrate	5	80	0	21	0	Stun	5	20	0	21	0							1	15	2	50000	bar
 Barbarian	2hs-Normal	100	28	561	5	3	80	515	MercX101	MercX167	32000	140	1422	45	1250	50	200	15	129	10	1520	45	49	53	5	109	7	109	7	109	7	109	7		50	Might	1	10	0	18	0	2hs-Normal	Battle Orders	5	5	0	21	0	Battle Cry	5	5	0	21	0	Concentrate	5	80	0	21	0	Stun	5	20	0	21	0							1	15	2	50000	bar
 Barbarian	2hs-Normal	100	29	561	5	3	80	515	MercX101	MercX167	32000	140	1422	45	1250	50	200	15	129	10	1520	45	49	53	5	148	4	148	4	148	4	148	4		50	Might	1	10	0	18	0	2hs-Normal	Battle Orders	5	5	0	21	0	Battle Cry	5	5	0	21	0	Concentrate	5	80	0	21	0	Stun	5	20	0	21	0							1	15	2	50000	bar
-Barbarian	2hs-Normal																									56	7	56	7	56	7	56	7		50							2hs-Normal																															1	15	2	50000	bar
-Barbarian	2hs-Normal																									109	7	109	7	109	7	109	7		50							2hs-Normal																															1	15	2	50000	bar
-Barbarian	2hs-Normal																									148	4	148	4	148	4	148	4		50							2hs-Normal																															1	15	2	50000	bar
-Barbarian	1hs-Normal																									56	7	56	7	56	7	56	7		50							1hs-Normal																															1	15	2	50000	bar
-Barbarian	1hs-Normal																									109	7	109	7	109	7	109	7		50							1hs-Normal																															1	15	2	50000	bar
-Barbarian	1hs-Normal																									148	4	148	4	148	4	148	4		50							1hs-Normal																															1	15	2	50000	bar
-Barbarian	2hs-Nightmare																									109	7	109	7	109	7	109	7		50							2hs-Nightmare																															1	15	2	50000	bar
-Barbarian	2hs-Nightmare																									148	4	148	4	148	4	148	4		50							2hs-Nightmare																															1	15	2	50000	bar
-Barbarian	2hs-Nightmare																									109	7	109	7	109	7	109	7		50							2hs-Nightmare																															1	15	2	50000	bar
-Barbarian	2hs-Nightmare																									148	4	148	4	148	4	148	4		50							2hs-Nightmare																															1	15	2	50000	bar
-Barbarian	1hs-Nightmare																									109	7	109	7	109	7	109	7		50							1hs-Nightmare																															1	15	2	50000	bar
-Barbarian	1hs-Nightmare																									148	4	148	4	148	4	148	4		50							1hs-Nightmare																															1	15	2	50000	bar
-Barbarian	2hs-Hell																									148	4	148	4	148	4	148	4		50							2hs-Hell																															1	15	2	50000	bar
-Barbarian	2hs-Hell																									148	4	148	4	148	4	148	4		50							2hs-Hell																															1	15	2	50000	bar
-Barbarian	1hs-Hell																									148	4	148	4	148	4	148	4		50							1hs-Hell																															1	15	2	50000	bar
