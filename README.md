@@ -140,9 +140,7 @@ Minor QOL tweaks:
 
 This one might be a big deal:
 
-- Cube an ethereal item w/ an Uber Key to pull it from the ethereal realm (and reverse)
-
-You will want to be sure any gems or runes in said item are taken out first, bc this action regenerates the item.
+- Cube an ethereal item w/ an Uber Key to pull it from the ethereal realm (and vice versa)
 
 Safe unsocket:
 
@@ -176,15 +174,15 @@ All mercenaries have auras and some additional skills:
 	- Fire - **Blessed Aim** / Fire Arrow / Exploding Arrow / Evade / Dodge
 	- Ice - **Meditation** / Cold Arrow / Ice Arrow / Evade / Dodge
 - Act 2
-	- Combat - **Blessed Aim** / Jab
-	- Defense - **Prayer** / Jab
-	- Offense - **Might** / Jab
+	- Combat - **Blessed Aim** / Jab / Penetrate
+	- Defense - **Prayer** / Jab / Penetrate
+	- Offense - **Might** / Jab / Penetrate
 - Act 3
 	- Fire - **Cleansing** / Fireball / Meteor / Fire Mastery
-	- Lightning - **Meditation** / Charged Bolt / Chain Lightning / Lightning Mastery
-	- Cold - **Prayer** / Glacial Spike / Blizzard / Cold Mastery
+	- Lightning - **Prayer** / Charged Bolt / Chain Lightning / Lightning Mastery
+	- Cold - **Meditation** / Glacial Spike / Blizzard / Cold Mastery
 - Act 5
-	- All - **Might** / Battle Orders / Battle Cry / Bash / Stun
+	- All - **Might** / Battle Orders / Concentrate / Stun
 
 Also, all mercenaries are the same no matter what difficulty you hire them.
 
