@@ -1,4 +1,4 @@
-# Reformed
+# Reformed for Diablo II
 
 A Diablo II soft-mod (TXT files) that contains all my preferred changes to the game over the last 25 years.
 
@@ -45,6 +45,7 @@ Minor QOL tweaks:
 
 - Potions w/ duration last 5 minutes
 - Items w/ stacks have increased size
+- Shines auras can stack on each other
 
 Important mechanics changes:
 
@@ -65,6 +66,18 @@ The __Worldstone Shard__ allows "corrupting" items to add random sockets.  This 
 
 Used in the Horadric Cube w/ any magic, rare, crafted, set, or unique item -- any equipable item other than jewelry, quivers, or charms.  There is a 50% chance the corruption will yield only a single socket.
 
+### Weapons & Gear
+
+Weapons now fall into these categories w/ increased ranges of attack:
+
+- Stabbing Weapons (knives) - 1 (default 0)
+- 1H Weapons (swords, axes, maces, claws) - 2 (default 1)
+- 2H Weapons (swords, axes, maces, javelins) - 3 (default 2)
+- Long Weapons (polearms, spears) - 4 (default 3)
+- Ranged Weapons (bows, crossbows) - 0 (default 0)
+
+Extends the range of weapons over the vanilla game a tad.
+
 ### Classes & Skills
 
 - Barbarian
@@ -74,7 +87,7 @@ Used in the Horadric Cube w/ any magic, rare, crafted, set, or unique item -- an
 - Sorceress
 	- Teleport allowed in town
 	- Meteor lands 2/3 faster
-	- All cooldowns reduced to 0.5 seconds (is this insane?)
+	- All cooldowns reduced to 0.5 seconds
 - Druid
 	- Shapeshift lasts longer (1 min/point)
     - Spirit Wolves now do cold instead of physical damage (like D2R)
@@ -172,19 +185,20 @@ All mercenaries have auras and some additional skills:
 
 - Act 1
 	- Fire - **Blessed Aim** / Fire Arrow / Exploding Arrow / Evade / Dodge
-	- Ice - **Meditation** / Cold Arrow / Ice Arrow / Evade / Dodge
+	- Ice - **Meditation** / Cold Arrow / Freezing Arrow / Evade / Dodge
 - Act 2
-	- Combat - **Blessed Aim** / Jab / Penetrate
-	- Defense - **Prayer** / Jab / Penetrate
-	- Offense - **Might** / Jab / Penetrate
+	- Defense - **Defiance** / Jab / Penetrate
+	- Offense - **Concentration** / Jab / Penetrate
 - Act 3
-	- Fire - **Cleansing** / Fireball / Meteor / Fire Mastery
-	- Lightning - **Prayer** / Charged Bolt / Chain Lightning / Lightning Mastery
-	- Cold - **Meditation** / Glacial Spike / Blizzard / Cold Mastery
+	- Fire - **Cleansing** / Fire Ball / Meteor / Fire Mastery
+	- Cold - **Prayer** / Glacial Spike / Blizzard / Cold Mastery
+	- Lightning - **Meditation** / Chain Lightning / Charged Bolt / Lightning Mastery
 - Act 5
-	- All - **Might** / Battle Orders / Concentrate / Stun
+	- All - **Might** / Whirlwind (needs `qol.dll` to behave properly)
 
-Also, all mercenaries are the same no matter what difficulty you hire them.
+Also, all mercenaries are the same no matter what difficulty you hire them (only the hire cost differs).
+
+Skill choice chances for every mercenary add up to 100 (default attack + aura 10 + skills).
 
 ### Areas & Rewards
 
@@ -249,72 +263,6 @@ Fixed bugged monsters:
 
 - Deckard Cain now stands near chest in Act V
 
-## Loot Filter
-
-Make sure you add these changes to your ``BH.cfg`` file:
-
-```
-//=================================================
-// WORLDSTONE SHARDS
-//=================================================
-
-// I retrofitted the throwing potions to be special items.  I had to reuse existing items
-// or else the maphack would throw a fit.  So I use these since nobody uses them anyway.
-
-ItemDisplay[FILTLVL>0 gps]: %LIGHT_GRAY%o %RED%W %GRAY%Shard%DOT-0A%
-ItemDisplay[FILTLVL>0 ops]: //
-ItemDisplay[FILTLVL>0 gpm]: //
-ItemDisplay[FILTLVL>0 opm]: //
-ItemDisplay[FILTLVL>0 gpl]: //
-ItemDisplay[FILTLVL>0 opl]: //
-
-//=================================================
-// CRAFTED ITEMS
-//=================================================
-
-// In original Diablo, these items were used to make a Token of Absolution,
-// which allowed a player to reset their stats.  These serve no purpose in
-// a PlugY world, so I retrofitted them to be free crafting recipes.
-
-// Crafting
-// - Twisted Essence of Suffering (tes) blue
-// - Charged Essence of Hatred (ceh) yellow
-// - Burning Essence of Terror (bet) red
-// - Festering Essence of Destruction (fed) green
-ItemDisplay[bet]: %LIGHT_GRAY%:: %ORANGE%Burning %GRAY%Essence{%WHITE%Cube to %RED%blood %WHITE%craft an item}%DOT-68%
-ItemDisplay[fed]: %LIGHT_GRAY%:: %ORANGE%Festering %GRAY%Essence{%WHITE%Cube to %GREEN%safety %WHITE%craft an item}%DOT-68%
-ItemDisplay[tes]: %LIGHT_GRAY%:: %ORANGE%Twisted %GRAY%Essence{%WHITE%Cube to %BLUE%greed %WHITE%craft an item}%DOT-68%
-ItemDisplay[ceh]: %LIGHT_GRAY%:: %ORANGE%Charged %GRAY%Essence{%WHITE%Cube to %PURPLE%caster %WHITE%craft an item}%DOT-68%
-
-// In original Diablo, crafted items could not be upgraded.  I made it so
-// crafted items can be upgraded using the same recipes as a rare item.
-
-// Crafted Item Upgrades
-ItemDisplay[CRAFT NORM WEAPON]: {%WHITE%Upgrade with %WHITE%OrtAmn%BLUE%O%WHITE%}
-ItemDisplay[CRAFT NORM ARMOR]: {%WHITE%Upgrade with %WHITE%RalThul%PURPLE%O%WHITE%}
-ItemDisplay[CRAFT EXC WEAPON]: {%WHITE%Upgrade with %WHITE%FalUm%BLUE%O%WHITE%}
-ItemDisplay[CRAFT EXC ARMOR]: {%WHITE%Upgrade with %WHITE%KoPul%PURPLE%O%WHITE%}
-
-// In original Diablo, crafting recipes required specific item types for
-// the various crafting schools -- blood, caster, safety, and hit.  My mod
-// makes it so any item type can be used in these recipes.
-
-// Crafting Recipes
-ItemDisplay[MAG HELM]: {%RED%Blood %RED%O%WHITE%Ral%LIGHT_GRAY%O %GRAY%| %PURPLE%Caster %PURPLE%O%WHITE%Nef%LIGHT_GRAY%O %GRAY%| %WHITE%Safety %GREEN%O%WHITE%Eth%LIGHT_GRAY%O %GRAY%| %BLUE%Hit %BLUE%O%WHITE%Ith%LIGHT_GRAY%O}
-ItemDisplay[MAG BOOTS]: {%RED%Blood %RED%O%WHITE%Eth%LIGHT_GRAY%O %GRAY%| %PURPLE%Caster %PURPLE%O%WHITE%Thul%LIGHT_GRAY%O %GRAY%| %GREEN%Safety %GREEN%O%WHITE%Ort%LIGHT_GRAY%O %GRAY%| %BLUE%Hit %BLUE%O%WHITE%Ral%LIGHT_GRAY%O}
-ItemDisplay[MAG GLOVES]: {%RED%Blood %RED%O%WHITE%Nef%LIGHT_GRAY%O %GRAY%| %PURPLE%Caster %PURPLE%O%WHITE%Ort%LIGHT_GRAY%O %GRAY%| %GREEN%Safety %GREEN%O%WHITE%Ral%LIGHT_GRAY%O %GRAY%| %BLUE%Hit %BLUE%O%WHITE%Ort%LIGHT_GRAY%O}
-ItemDisplay[MAG BELT]: {%RED%Blood %RED%O%WHITE%Tal%LIGHT_GRAY%O %GRAY%| %PURPLE%Caster %PURPLE%O%WHITE%Ith%LIGHT_GRAY%O %GRAY%| %GREEN%Safety %GREEN%O%WHITE%Tal%LIGHT_GRAY%O %GRAY%| %BLUE%Hit %BLUE%O%WHITE%Tal%LIGHT_GRAY%O}
-ItemDisplay[MAG SHIELD]: {%RED%Blood %RED%O%WHITE%Ith%LIGHT_GRAY%O %GRAY%| %PURPLE%Caster %PURPLE%O%WHITE%Eth%LIGHT_GRAY%O %GRAY%| %GREEN%Safety %GREEN%O%WHITE%Nef%LIGHT_GRAY%O %GRAY%| %BLUE%Hit %BLUE%O%WHITE%Eth%LIGHT_GRAY%O}
-ItemDisplay[MAG CHEST]: {%RED%Blood %RED%O%WHITE%Thul%LIGHT_GRAY%O %GRAY%| %PURPLE%Caster %PURPLE%O%WHITE%Tal%LIGHT_GRAY%O %GRAY%| %GREEN%Safety %GREEN%O%WHITE%Eth%LIGHT_GRAY%O %GRAY%| %BLUE%Hit %BLUE%O%WHITE%Nef%LIGHT_GRAY%O}
-ItemDisplay[MAG amu]: {%RED%Blood %RED%O%WHITE%Amn%LIGHT_GRAY%O %GRAY%| %PURPLE%Caster %PURPLE%O%WHITE%Ral%LIGHT_GRAY%O %GRAY%| %GREEN%Safety %GREEN%O%WHITE%Thul%LIGHT_GRAY%O %GRAY%| %BLUE%Hit %BLUE%O%WHITE%Thul%LIGHT_GRAY%O}
-ItemDisplay[MAG rin]: {%RED%Blood %RED%O%WHITE%Sol%LIGHT_GRAY%O %GRAY%| %PURPLE%Caster %PURPLE%O%WHITE%Amn%LIGHT_GRAY%O %GRAY%| %GREEN%Safety %GREEN%O%WHITE%Amn%LIGHT_GRAY%O %GRAY%| %BLUE%Hit %BLUE%O%WHITE%Amn%LIGHT_GRAY%O}
-ItemDisplay[MAG WEAPON]: {%RED%Blood %RED%O%WHITE%Ort%LIGHT_GRAY%O %GRAY%| %PURPLE%Caster %PURPLE%O%WHITE%Tir%LIGHT_GRAY%O %GRAY%| %GREEN%Safety %GREEN%O%WHITE%Sol%LIGHT_GRAY%O %GRAY%| %BLUE%Hit %BLUE%O%WHITE%Tir%LIGHT_GRAY%O}
-```
-
 ## External Links
 
-- [Phrozen Keep](https://d2mods.info/forum) - The forum of master D2 modders and their ancient discussions.
-- [MPQ Editor](http://zezula.net/en/mpq/download.html) - App for unpacking MPQ files (handy for reverse engineering what others have done).
-- [Unix2Dos](https://phoenixnap.com/kb/convert-dos-to-unix) - Command line tool for converting file endings (handy for modding TXT files).
-- [XVI32](http://www.chmaas.handshake.de/delphi/freeware/xvi32/xvi32.htm#download) - Freeware hex editor XVI32.
-- [AFJ](https://d2mods.info/forum/viewtopic.php?t=15454) - Table editor for game strings.
+- [Will Scarlet's PlugY QOL Modpack](https://github.com/whipowill/d2-plugy-qol) - a compilation of the best quality-of-life mods for the game
