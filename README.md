@@ -1,16 +1,14 @@
-# Reformed for Diablo II
+# Will Scarlet's Reformed for Diablo II
 
 A Diablo II soft-mod (TXT files) that contains all my preferred changes to the game over the last 25 years.
+
+![Cover Art](https://i.imgur.com/VEMcsYc.jpeg)
 
 Intended for use w/ the [Diablo II PlugY QOL](https://github.com/whipowill/d2-plugy-qol) modpack.
 
 ## Introduction
 
-When you've played a game for decades, you can get particular about how you like things to be.  This mod represents all the changes I've made over the years to enhance quality-of-life and boost what I felt were the fun and interesting aspects of the game.  Minor changes all, nothing too much.
-
-My goal is to provide these changes for both **D2LOD (v1.13d)** and **D2R (v2.4)**.  Sadly, even w/ mod parity between the games, you can't transfer a character from one to the other.  For whatever reason it just doesn't work.  I assume it has something to do w/ the internal D2R file encoding that assumes vanilla stats on items.
-
-The D2LOD version of this mod is the best version, and the D2R port is close but not always up to date.  Because I pretty much only play D2LOD, that's the version that gets the most love.  You can check the TODO file to see what those not-yet-ported changes might be.  It's a labor of love, and I will get to it when I can.
+When you've played a game for decades, you can get particular about how you like things to be.  This mod represents changes I've made over the years to enhance quality-of-life and boost what I felt were the fun and interesting aspects of the game.
 
 ## Features
 
@@ -18,8 +16,7 @@ I hope you'll find these changes tasteful while still maintaining the spirit of 
 
 - __Better Rune Drops__ - mid and high rune drop chance is linear instead of parabolic
 - __Worldstone Shards__ - corrupt your items to add random sockets w/ a 50% chance it will fail
-- __Melee Splash Damage__ - melee attacks deal 50% splash damage in a small radius
-- __Infinite Ammunition__ - quivers and throw weapons spawn w/ replenishing quantity
+- __Melee Splash Damage__ - melee attacks deal 100% splash damage in a small radius
 - __More Socketable Items__ - gloves, belts, boots, and throwing weapons are socketable
 - __New Endgame Farming__ - keys drop from all Prime and Lesser Evils
 - __Retrofit Endgame Materials__ - evil essences are now used as free crafting recipes
@@ -27,17 +24,9 @@ I hope you'll find these changes tasteful while still maintaining the spirit of 
 
 ## Install
 
-**D2LOD**
-
-- Merge the contents of the ``D2LOD`` folder into your Diablo II game directory.
-
-**D2R**
-
-- Merge the contents of the ``D2R`` folder into your Diablo II game directory.
+- Copy and paste the ``Data`` folder into your Diablo II game directory.
 
 ## Changes
-
-For a precise view of the game changes enacted here, you can check out my [TXT change repo](https://github.com/whipowill/d2-113c-txt-changes) which highlights exactly what I've done.
 
 ### Items & Mechanics
 
@@ -45,12 +34,11 @@ Minor QOL tweaks:
 
 - Potions w/ duration last 5 minutes
 - Items w/ stacks have increased size
-- Shines auras can stack on each other
+- Shine auras can stack on each other
 
 Important mechanics changes:
 
-- Melee weapons spawn w/ splash damage (50% weapon damage at short range)
-- Projectile weapons spawn w/ replenishing quantity
+- Melee weapons spawn w/ splash damage
 - Magic and rare quivers are possible
 
 New socketable items:
@@ -80,22 +68,26 @@ Extends the range of weapons over the vanilla game a tad.
 
 ### Classes & Skills
 
+The class settings of this mod start by porting most of the D2R changes from v2.4, the summary of which is generally a little less mana spend and a little more damage.
+
 - Barbarian
 	- Leap, Shout, Battle Orders, Battle Command allowed in town
 - Amazon
 	- Dodge, Avoid, Evade bug fixed (per technique by [Nagahaku](https://d2mods.info/forum/viewtopic.php?p=500423&sid=923afb1f8828e76713d3c8a1f9f78ff1#p500423))
+    - Impale replaced w/ Javelin Mastery
+    - Jab and Fend synergies added
 - Sorceress
 	- Teleport allowed in town
 	- Meteor lands 2/3 faster
-	- All cooldowns reduced to 0.5 seconds
+    - Blizzard lands more evenly
+	- All cooldowns reduced to 0.6 seconds
 - Druid
-	- Shapeshift lasts longer (1 min/point)
-    - Spirit Wolves now do cold instead of physical damage (like D2R)
-	- All beasts can be summoned at same time (like D2R)
-	- All beasts have increased critical chance (15% from 5%)
-    - All beasts apply Open Wounds on attack (makes sense, right?)
-	- Spirits & vines cannot die (like PD2)
-	- Teleport allowed in shapeshift form
+	- Shapeshift lasts longer (1 min per point)
+	- Beasts have increased critical chance (15% from 5%)
+    - Beasts have Open Wounds on attack
+    - Beasts have Splash Damage on attack
+	- Spirits & vines cannot die
+    - Teleport allowed in Shapeshift form
 
 Also ``data/global/sfx/`` includes some files to mute/swap annoying sounds (Amazon and Sorceress).
 
@@ -137,14 +129,6 @@ Help w/ limited inventory space:
 
 - Cube size is now 7x4 (credit [Sajon Oso](https://sajonoso.github.io/d2mods/))
 
-Stackable items (D2R only, this change is not in D2LOD):
-
-- Gems are stackable by converting in cube
-- Jewels are stackable by converting in cube
-- Runes are stackable by converting in cube
-
-The problem w/ this in D2R is that you can't control-click stackable items into your stash.  You have to pickup the stack in your stash, move it to your inventory, add the new item to the stack, then move it back.
-
 Minor QOL tweaks:
 
 - Cube 2 runes -> 1 higher rank rune
@@ -171,13 +155,12 @@ Crafting changes:
 - Use a perfect gem w/ an evil essence to change it's color
 - Crafting recipes work on all magic items (no longer limited to particular [item codes](https://classic.battle.net/diablo2exp/items/crafteditems.shtml))
 - Crafted weapons and armor can be upgraded as if they were rare
-- Token of Absolution removed from the game
 
 Basically, you can farm Travincal and accumulate a ton of free craft recipes.
 
 Endgame changes:
 
-- Only one key (any key) required to open red portal (still debating this one)
+- Only one key (any key) required to open red portal
 
 ### Mercenaries & Auras
 
@@ -187,7 +170,7 @@ All mercenaries have auras and some additional skills:
 	- Fire - **Blessed Aim** / Fire Arrow / Exploding Arrow / Evade / Dodge
 	- Ice - **Meditation** / Cold Arrow / Freezing Arrow / Evade / Dodge
 - Act 2
-	- Defense - **Defiance** / Jab / Penetrate
+	- Defense - **Prayer** / Jab / Penetrate
 	- Offense - **Concentration** / Jab / Penetrate
 - Act 3
 	- Fire - **Cleansing** / Fire Ball / Meteor / Fire Mastery
@@ -197,8 +180,6 @@ All mercenaries have auras and some additional skills:
 	- All - **Might** / Whirlwind (needs `qol.dll` to behave properly)
 
 Also, all mercenaries are the same no matter what difficulty you hire them (only the hire cost differs).
-
-Skill choice chances for every mercenary add up to 100 (default attack + aura 10 + skills).
 
 ### Areas & Rewards
 
