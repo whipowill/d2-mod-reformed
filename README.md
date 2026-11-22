@@ -34,7 +34,7 @@ Minor QOL tweaks:
 
 - Potions w/ duration last 5 minutes
 - Items w/ stacks have increased size
-- Shine auras can stack on each other
+- Shrine auras can stack on each other
 
 Important mechanics changes:
 
