@@ -12,8 +12,6 @@ When you've played a game for decades, you can get particular about how you like
 
 ## Features
 
-The idea is to make minor improvements w/out changing things so much that it becomes an entirely different game.
-
 - __Better Rune Drops__ - mid and high rune drop chance is linear instead of parabolic
 - __Worldstone Shards__ - corrupt your items to add random sockets w/ a 50% chance it will fail
 - __Melee Splash Damage__ - melee attacks deal 100% splash damage in a small radius
@@ -136,33 +134,31 @@ Changes to who drops what:
 
 ### Cube & Crafting
 
-Help w/ limited inventory space:
-
 - Cube size is now 7x4 (credit [Sajon Oso](https://sajonoso.github.io/d2mods/))
 
-Minor QOL tweaks:
+Easier recipe formulas:
 
 - Cube 2 runes -> 1 higher rank rune
 - Cube 3 gems -> 1 higher rank gem
 - Secret cow level only requires a Tome of Town Portal
 
-This one might be a big deal:
-
-- Cube an ethereal item w/ an Uber Key to pull it from the ethereal realm (and vice versa)
-
-Safe unsocket:
+Safe unsocket an item:
 
 - Cube a stack of keys to release 1 key
 - Cube a socketed item w/ a key and get the gems back
 
+This one might be a big deal:
+
+- Cube an ethereal item w/ an Uber Key to pull it from the ethereal realm (and vice versa)
+
 Crafting changes:
 
 - Hitpower crafting changed to greed (magic find + gold find)
-- Evil essences now used for crafting (free craft recipes)
-    - Twisted Essence of Suffering (blue) - greed (used to be hitpower)
-    - Charged Essence of Hatred (yellow) - caster
-    - Burning Essence of Terror (red) - blood
+- Evil essences now used as free craft recipes
+    - Charged Essence of Hatred (yellow) - greed (magic find + gold find)
     - Festering Essence of Destruction (green) - safety
+    - Twisted Essence of Suffering (blue) - caster
+    - Burning Essence of Terror (red) - blood
 - Use a perfect gem w/ an evil essence to change it's color
 - Crafting recipes work on all magic items (no longer limited to particular [item codes](https://classic.battle.net/diablo2exp/items/crafteditems.shtml))
 - Crafted weapons and armor can be upgraded as if they were rare

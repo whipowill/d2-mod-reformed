@@ -181,15 +181,15 @@ world shard + torso → socketed torso	1			100	18	362	0		2	tors,nos	wss						use
 world shard + weapon → socketed weapon	1			100	18	362	0		2	weap,nos	wss						useitem				corruption			100		sock			2	6	sock	50		1	1																																																																					0
 world shard + helm → socketed helm	1			100	18	362	0		2	helm,nos	wss						useitem				corruption			100		sock			2	3	sock	50		1	1																																																																					0
 world shard + shield → socketed shield	1			100	18	362	0		2	shld,nos	wss						useitem				corruption			100		sock			2	4	sock	50		1	1																																																																					0
-hitpower helm	1			100					2	helm,mag	tes						usetype,crf		50	50	mag%			10	20	gold%			20	40																																																																										0
-hitpower boots	1			100					2	boot,mag	tes						usetype,crf		50	50	mag%			10	20	gold%			20	40																																																																										0
-hitpower gloves	1			100					2	glov,mag	tes						usetype,crf		50	50	mag%			10	20	gold%			20	40																																																																										0
-hitpower belt	1			100					2	belt,mag	tes						usetype,crf		50	50	mag%			10	20	gold%			20	40																																																																										0
-hitpower shield	1			100					2	shld,mag	tes						usetype,crf		50	50	mag%			10	20	gold%			20	40																																																																										0
-hitpower body	1			100					2	tors,mag	tes						usetype,crf		50	50	mag%			10	20	gold%			20	40																																																																										0
-hitpower amulet	1			100					2	amul,mag	tes						usetype,crf		50	50	mag%			10	20	gold%			20	40																																																																										0
-hitpower ring	1			100					2	ring,mag	tes						usetype,crf		50	50	mag%			10	20	gold%			20	40																																																																										0
-hitpower weapon	1			100					2	weap,mag	tes						usetype,crf		50	50	mag%			10	20	gold%			20	40																																																																										0
+hitpower helm	1			100					2	helm,mag	ceh						usetype,crf		50	50	mag%			10	20	gold%			20	40																																																																										0
+hitpower boots	1			100					2	boot,mag	ceh						usetype,crf		50	50	mag%			10	20	gold%			20	40																																																																										0
+hitpower gloves	1			100					2	glov,mag	ceh						usetype,crf		50	50	mag%			10	20	gold%			20	40																																																																										0
+hitpower belt	1			100					2	belt,mag	ceh						usetype,crf		50	50	mag%			10	20	gold%			20	40																																																																										0
+hitpower shield	1			100					2	shld,mag	ceh						usetype,crf		50	50	mag%			10	20	gold%			20	40																																																																										0
+hitpower body	1			100					2	tors,mag	ceh						usetype,crf		50	50	mag%			10	20	gold%			20	40																																																																										0
+hitpower amulet	1			100					2	amul,mag	ceh						usetype,crf		50	50	mag%			10	20	gold%			20	40																																																																										0
+hitpower ring	1			100					2	ring,mag	ceh						usetype,crf		50	50	mag%			10	20	gold%			20	40																																																																										0
+hitpower weapon	1			100					2	weap,mag	ceh						usetype,crf		50	50	mag%			10	20	gold%			20	40																																																																										0
 blood helm	1			100					2	helm,mag	bet						usetype,crf		50	50	lifesteal			1	3	hp			10	20	deadly			5	10																																																																					0
 blood boots	1			100					2	boot,mag	bet						usetype,crf		50	50	lifesteal			1	3	hp			10	20	regen			5	10																																																																					0
 blood gloves	1			100					2	glov,mag	bet						usetype,crf		50	50	lifesteal			1	3	hp			10	20	crush			5	10																																																																					0
@@ -199,15 +199,15 @@ blood body	1			100					2	tors,mag	bet						usetype,crf		50	50	lifesteal			1	3	hp
 blood amulet	1			100					2	amul,mag	bet						usetype,crf		50	50	lifesteal			1	4	hp			10	20	move1			5	10																																																																					0
 blood ring	1			100					2	ring,mag	bet						usetype,crf		50	50	lifesteal			1	3	hp			10	20	str			1	5																																																																					0
 blood weapon	1			100					2	weap,mag	bet						usetype,crf		50	50	lifesteal			1	4	hp			10	20	dmg%			35	60																																																																					0
-caster helm	1			100					2	helm,mag	ceh						usetype,crf		50	50	regen-mana			4	10	mana			10	20	manasteal			1	4																																																																					0
-caster boots	1			100					2	boot,mag	ceh						usetype,crf		50	50	regen-mana			4	10	mana			10	20	mana%			2	5																																																																					0
-caster gloves	1			100					2	glov,mag	ceh						usetype,crf		50	50	regen-mana			4	10	mana			10	20	mana-kill			1	3																																																																					0
-caster belt	1			100					2	belt,mag	ceh						usetype,crf		50	50	regen-mana			4	10	mana			10	20	cast1			5	10																																																																					0
-caster shield	1			100					2	shld,mag	ceh						usetype,crf		50	50	regen-mana			4	10	mana			10	20	block			5	10																																																																					0
-caster body	1			100					2	tors,mag	ceh						usetype,crf		50	50	regen-mana			4	10	mana			10	20	mana-kill			1	3																																																																					0
-caster amulet	1			100					2	amul,mag	ceh						usetype,crf		50	50	regen-mana			4	10	mana			10	20	cast1			5	10																																																																					0
-caster ring	1			100					2	ring,mag	ceh						usetype,crf		50	50	regen-mana			4	10	mana			10	20	enr			1	5																																																																					0
-caster weapon	1			100					2	weap,mag	ceh						usetype,crf		50	50	regen-mana			4	10	mana			10	20	mana%			1	5																																																																					0
+caster helm	1			100					2	helm,mag	tes						usetype,crf		50	50	regen-mana			4	10	mana			10	20	manasteal			1	4																																																																					0
+caster boots	1			100					2	boot,mag	tes						usetype,crf		50	50	regen-mana			4	10	mana			10	20	mana%			2	5																																																																					0
+caster gloves	1			100					2	glov,mag	tes						usetype,crf		50	50	regen-mana			4	10	mana			10	20	mana-kill			1	3																																																																					0
+caster belt	1			100					2	belt,mag	tes						usetype,crf		50	50	regen-mana			4	10	mana			10	20	cast1			5	10																																																																					0
+caster shield	1			100					2	shld,mag	tes						usetype,crf		50	50	regen-mana			4	10	mana			10	20	block			5	10																																																																					0
+caster body	1			100					2	tors,mag	tes						usetype,crf		50	50	regen-mana			4	10	mana			10	20	mana-kill			1	3																																																																					0
+caster amulet	1			100					2	amul,mag	tes						usetype,crf		50	50	regen-mana			4	10	mana			10	20	cast1			5	10																																																																					0
+caster ring	1			100					2	ring,mag	tes						usetype,crf		50	50	regen-mana			4	10	mana			10	20	enr			1	5																																																																					0
+caster weapon	1			100					2	weap,mag	tes						usetype,crf		50	50	regen-mana			4	10	mana			10	20	mana%			1	5																																																																					0
 safety helm	1			100					2	helm,mag	fed						usetype,crf		50	50	red-dmg			1	4	red-mag			1	2	res-ltng			5	10	ac%			10	30																																																																0
 safety boots	1			100					2	boot,mag	fed						usetype,crf		50	50	red-dmg			1	4	red-mag			1	2	res-fire			5	10	ac%			10	30																																																																0
 safety gloves	1			100					2	glov,mag	fed						usetype,crf		50	50	red-dmg			1	4	red-mag			1	2	res-cold			5	10	ac%			10	30																																																																0
