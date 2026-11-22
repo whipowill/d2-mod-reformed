@@ -12,7 +12,7 @@ When you've played a game for decades, you can get particular about how you like
 
 ## Features
 
-I hope you'll find these changes tasteful while still maintaining the spirit of original Diablo II.  The idea is to make minor improvements w/out changing things so much that it becomes an entirely different game.
+The idea is to make minor improvements w/out changing things so much that it becomes an entirely different game.
 
 - __Better Rune Drops__ - mid and high rune drop chance is linear instead of parabolic
 - __Worldstone Shards__ - corrupt your items to add random sockets w/ a 50% chance it will fail
@@ -28,25 +28,11 @@ I hope you'll find these changes tasteful while still maintaining the spirit of 
 
 ## Changes
 
-### Items & Mechanics
-
-Minor QOL tweaks:
-
 - Potions w/ duration last 5 minutes
 - Items w/ stacks have increased size
 - Shrine auras can stack on each other
 
-Important mechanics changes:
-
-- Melee weapons spawn w/ splash damage
-- Magic and rare quivers are possible
-
-New socketable items:
-
-- Gloves are socketable (up to 3 sockets)
-- Belts are socketable (up to 2 sockets)
-- Boots are socketable (up to 3 sockets)
-- Throwing weapons are socketable (up to 3 sockets)
+### Worldstone Shards
 
 A new item:
 
@@ -56,7 +42,10 @@ Used in the Horadric Cube w/ any magic, rare, crafted, set, or unique item -- an
 
 ### Weapons & Gear
 
-Weapons now fall into these categories w/ increased ranges of attack:
+- Melee weapons spawn w/ splash damage
+- Magic and rare quivers are possible
+
+Weapons now have increased ranges of attack:
 
 - Stabbing Weapons (knives) - 1 (default 0)
 - 1H Weapons (swords, axes, maces, claws) - 2 (default 1)
@@ -64,11 +53,14 @@ Weapons now fall into these categories w/ increased ranges of attack:
 - Long Weapons (polearms, spears) - 4 (default 3)
 - Ranged Weapons (bows, crossbows) - 0 (default 0)
 
-Extends the range of weapons over the vanilla game a tad.
+New socketable items:
+
+- Gloves are socketable (up to 3 sockets)
+- Belts are socketable (up to 2 sockets)
+- Boots are socketable (up to 3 sockets)
+- Throwing weapons are socketable (up to 3 sockets)
 
 ### Classes & Skills
-
-The class settings of this mod start by porting most of the D2R changes from v2.4, the summary of which is generally a little less mana spend and a little more damage.
 
 - Barbarian
 	- Leap, Shout, Battle Orders, Battle Command allowed in town
@@ -89,7 +81,28 @@ The class settings of this mod start by porting most of the D2R changes from v2.
 	- Spirits & vines cannot die
     - Teleport allowed in Shapeshift form
 
+This mod makes a good faith effort to import most of the changes from D2R v2.4 with regard to slightly lower mana costs, slightly higher damage output, and some synergy tweaks.  Most of the work here was on making Summon Druid and Fendazon viable classes.
+
 Also ``data/global/sfx/`` includes some files to mute/swap annoying sounds (Amazon and Sorceress).
+
+### Mercenaries & Auras
+
+All mercenaries have auras and some additional skills:
+
+- Act 1
+    - Fire - **Blessed Aim** / Fire Arrow / Exploding Arrow / Evade / Dodge
+    - Ice - **Meditation** / Cold Arrow / Freezing Arrow / Evade / Dodge
+- Act 2
+    - Defensive - **Prayer** / Jab / Penetrate
+    - Offensive - **Concentration** / Jab / Penetrate
+- Act 3
+    - Fire - **Cleansing** / Fire Ball / Meteor / Fire Mastery
+    - Cold - **Prayer** / Glacial Spike / Blizzard / Cold Mastery
+    - Lightning - **Meditation** / Chain Lightning / Charged Bolt / Lightning Mastery
+- Act 5
+    - All - **Might** / Whirlwind / Battle Orders
+
+All mercenaries are the same no matter what difficulty you hire them (only the hire cost differs).
 
 ### Drops & Endgame
 
@@ -98,7 +111,7 @@ Adjustment of drop rates:
 - Act bosses always drop quest loot
 - Low quality gems become uncommon once you get to Act V in Normal
 - Mid and high runes more likely (linear dropoff rather than parabolic)
-- Nodrop rates are unchanged (still incentivized to ``/players 8``)
+- Nodrop rates are unchanged (still incentivized to use ``/players 8``)
 
 Changes to who drops what:
 
@@ -120,8 +133,6 @@ Changes to who drops what:
     - Izual
     - Haphesto
     - Nelethak
-
-I wanted to incentivize doing full game runs (instead of just farming a single boss in a hard-to-access area like Arcane Santuary).  This way you can start a run and find a good reason to do the whole game, quest bosses and act bosses.  As you'll see in the next category, evil essences now serve a purpose in a PlugY world by being used as free crafting recipes.
 
 ### Cube & Crafting
 
@@ -156,30 +167,11 @@ Crafting changes:
 - Crafting recipes work on all magic items (no longer limited to particular [item codes](https://classic.battle.net/diablo2exp/items/crafteditems.shtml))
 - Crafted weapons and armor can be upgraded as if they were rare
 
-Basically, you can farm Travincal and accumulate a ton of free craft recipes.
+Basically, you can farm Travincal and accumulate free craft recipes.
 
 Endgame changes:
 
 - Only one key (any key) required to open red portal
-
-### Mercenaries & Auras
-
-All mercenaries have auras and some additional skills:
-
-- Act 1
-	- Fire - **Blessed Aim** / Fire Arrow / Exploding Arrow / Evade / Dodge
-	- Ice - **Meditation** / Cold Arrow / Freezing Arrow / Evade / Dodge
-- Act 2
-	- Defense - **Prayer** / Jab / Penetrate
-	- Offense - **Concentration** / Jab / Penetrate
-- Act 3
-	- Fire - **Cleansing** / Fire Ball / Meteor / Fire Mastery
-	- Cold - **Prayer** / Glacial Spike / Blizzard / Cold Mastery
-	- Lightning - **Meditation** / Chain Lightning / Charged Bolt / Lightning Mastery
-- Act 5
-	- All - **Might** / Whirlwind (needs `qol.dll` to behave properly)
-
-Also, all mercenaries are the same no matter what difficulty you hire them (only the hire cost differs).
 
 ### Areas & Rewards
 
@@ -230,8 +222,6 @@ More level 85 areas in Hell:
     - Matron's Den
     - Furnace of Pain
     - Uber Tristram
-
-As mentioned previously, the idea is to incentivize full game runs w/ forays into the off-the-beaten-path areas.  This gives you a reason to take that door to an area you would normally skip.
 
 ### Monsters & Bug Fixes
 

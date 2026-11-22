@@ -53,7 +53,7 @@ No existing value is lowered. It is read from the table at run time, so it also 
 ## Mercenaries (`Hireling.txt`)
 
 - The hire screen only shows text for `HireDesc` 0-8 (strings 3371/3372, 11090/11088/11089, 3377/3376/3375). Labels are `Name (Aura)`; ids 3371, 3372 and 3375-3377 are in a loose `local/lng/eng/string.tbl`, 11088-11090 in `patchstring.tbl` (the Act 2 defensive text is key `PalMercExST1X`, "Jab (Prayer)").
-- Act 2 has no "Combat" rows. Act 5 has Whirlwind in skill slot 2 and no Battle Orders.
+- Act 2 has no "Combat" rows. Act 5 has Whirlwind in skill slot 2 and Battle Orders in slot 3 (it replaced Battle Cry; both use the same cast function, so only the name changes).
 - Chances per row add up to 100: `DefaultChance` (plain attack) + aura 10 + skills. Act 3 casters have default 0.
 - Top (Hell) level of each merc. Format: skill level, and in brackets the chance in percent that the merc picks it (a skill with no chance is a passive or a bonus only). The aura's chance is 10 for all; the rest of the 100 is the plain attack (`DefaultChance`).
 
@@ -66,7 +66,7 @@ No existing value is lowered. It is read from the table at run time, so it also 
 | Act 3 fire | Cleansing 30 | Fire Ball 20 (60), Meteor 19 (30), Fire Mastery 18 | 0 |
 | Act 3 cold | Prayer 21 | Glacial Spike 18 (60), Blizzard 15 (30), Cold Mastery 18 | 0 |
 | Act 3 lightning | Meditation 18 | Chain Lightning 22 (65), Charged Bolt 18 (25), Lightning Mastery 18 | 0 |
-| Act 5 | Might 18 | Whirlwind 21 (60), Battle Cry 21 (15) | 15 |
+| Act 5 | Might 18 | Whirlwind 21 (60), Battle Orders 21 (15) | 15 |
 
 - Concentration gives 60% + 15% per level and Might 40% + 10%, so the Act 2 offensive merc is set to aura level 1 / 6 / 11 (`Level1`, with `LvlPerLvl1` 5) to give +60 / +135 / +210%, equal to Might at the top. Concentration's interrupt protection is unchanged.
 - Version 100 (expansion) rows equal version 0 at the same merc level; only hire gold scales.
