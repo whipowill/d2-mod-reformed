@@ -45,11 +45,11 @@ Used in the Horadric Cube w/ any magic, rare, crafted, set, or unique item -- an
 
 Weapons now have increased ranges of attack:
 
-- Stabbing Weapons (knives) - 1 (default 0)
-- 1H Weapons (swords, axes, maces, claws) - 2 (default 1)
-- 2H Weapons (swords, axes, maces, javelins) - 3 (default 2)
-- Long Weapons (polearms, spears) - 4 (default 3)
-- Ranged Weapons (bows, crossbows) - 0 (default 0)
+- Stabbing Weapons (knives) - 1 (from 0)
+- 1H Weapons (swords, axes, maces, claws) - 2 (from 1)
+- 2H Weapons (swords, axes, maces, javelins) - 3 (from 2)
+- Long Weapons (polearms, spears) - 4 (from 3)
+- Ranged Weapons (bows, crossbows) - 0 (unchanged)
 
 New socketable items:
 
@@ -130,6 +130,7 @@ Changes to who drops what:
     - Travincal
     - Izual
     - Haphesto
+    - Shenk
     - Nelethak
 
 ### Cube & Crafting
@@ -162,6 +163,10 @@ Crafting changes:
 - Use a perfect gem w/ an evil essence to change it's color
 - Crafting recipes work on all magic items (no longer limited to particular [item codes](https://classic.battle.net/diablo2exp/items/crafteditems.shtml))
 - Crafted weapons and armor can be upgraded as if they were rare
+
+Rerolling charms changes:
+
+- Use any charm with any essence to reroll
 
 Basically, you can farm Travincal and accumulate free craft recipes.
 

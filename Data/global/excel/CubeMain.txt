@@ -52,6 +52,10 @@ Wirt's leg + town portal book -> portal to cow lvl (original recipe)	1			0	28			
 3 standard skulls -> flawless skull	1			0					3	sku,qty=3							skl																																																																																							0
 3 flawless skulls -> perfect skull	1			0					3	skl,qty=3							skz																																																																																							0
 3 perfect gems + 1 magic item -> magic item	1			100					4	any,mag	gem4,qty=3						usetype,mag			100																																																																																				0
+1 Twisted Essence of Suffering + 1 magic charm -> magic charm	1			100					2	char,mag	tes						usetype,mag			100																																																																																				0
+1 Charged Essence of Hatred + 1 magic charm -> magic charm	1			100					2	char,mag	ceh						usetype,mag			100																																																																																				0
+1 Burning Essence of Terror + 1 magic charm -> magic charm	1			100					2	char,mag	bet						usetype,mag			100																																																																																				0
+1 Festering Essence of Destruction + 1 magic charm -> magic charm	1			100					2	char,mag	fed						usetype,mag			100																																																																																				0
 6 perfect skulls + 1 rare item -> 1 low level rare item	1			0					7	any,rar	skz,qty=6						usetype,rar		40	40																																																																																				0
 1 perfect skull + 1 rare item + soj -> 1 high level rare item	1			0					3	any,rar	skz	The Stone of Jordan					usetype,rar		66	66																																																																																				0
 3 perfect skull + 1 rare item + stone of jordan-> add 1 socket to rare	1			0					5	any,rar,nos	skz,qty=3	The Stone of Jordan					useitem,sock=1																																																																																							0
